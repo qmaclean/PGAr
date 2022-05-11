@@ -1,7 +1,7 @@
 
 ###### sample
-#year<-2021
-#tournament_id<-'011'
+year<-2019
+tournament_id<-'011'
 
 course_info<-function(year,
                       tournament_id) {
@@ -15,6 +15,7 @@ course_info<-function(year,
     cli::cli_abort("Enter a valid numeric year (YYYY)")
   }
   
+  ##### course info changed after 2020 to include poi data; add that to function
   
   base_url<-"https://tourcastdata.pgatour.com/r"
   
@@ -37,14 +38,14 @@ course_info<-function(year,
     tidyjson::enter_object("poi") %>%
     tidyjson::gather_array("name") %>%
     tidyjson::spread_all() %>%
-    as_tibble() %>%
-    dplyr::select(-roundNumber.2,-number) %>%
-    rename(poi = .data$name,
-           poi_description = .data$name.2,
-           poi_location_x = .data$location_x,
-           poi_location_y = .data$location_y,
-           poi_location_z = .data$location_z
-           )
+    as_tibble() 
+    #%>%
+    #rename(poi = .data$name,
+    #       poi_description = .data$name.2,
+    #       poi_location_x = .data$location_x,
+    #       poi_location_y = .data$location_y,
+    #       poi_location_z = .data$location_z
+    #       )
   
   df$tournamnetNumber<-course_js$tournamentNumber
   df$tourCode<-course_js$tourCode
@@ -57,5 +58,17 @@ course_info<-function(year,
 }
   
 #   @test
-#df<-course_info(year,tournament_id)
+getwd()
+setwd("/Users/qmaclean/Desktop/Data_Science_Projects_Personal/PGAr/PGAr/data/course_info/2015")
+
+year<-2015
+tournament_id<-'010'
+df<-course_info(year,tournament_id)
+
+write.csv(df,"course_info_2015_011.csv")
+
+#### notes; doesn't work for all courses
+
+
+
 
