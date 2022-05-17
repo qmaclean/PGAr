@@ -108,6 +108,19 @@
 | 02373 | Accuracy From Rough | Approaches From 225-250 Yards (RGH) |
 | 02374 | Accuracy From Rough | Approaches From 250-275 Yards (RGH) |
 | 02375 | Accuracy From Rough | Approaches From >275 Yards (RGH) |
+| 02333 | Scoring | Birdie or Better Percentage - Faiway |
+| 02334 | Scoring | Birdie or Better Percentage - Left Rough |
+| 02335 | Scoring | Birdie or Better Percentage - Right Rough |
+| 02336 | Scoring | Birdie or Better Percentage - Rough |
+| 357 | Scoring | Birdie or Better Percentage - 200+ Yards |
+| 358 | Scoring | Birdie or Better Percentage - 175-200 Yards |
+| 359 | Scoring | Birdie or Better Percentage - 150-175 Yards |
+| 360 | Scoring | Birdie or Better Percentage - 125-150 Yards |
+| 361 | Scoring | Birdie or Better Percentage < 125 Yards |
+| 02376 | Scoring | Approach 200-225 Yards (RTP) |
+| 02377 | Scoring | Approach 225-250 Yards (RTP) |
+| 02379 | Scoring | Approach > 275 Yards (RTP) |
+| 023
 
 
 
