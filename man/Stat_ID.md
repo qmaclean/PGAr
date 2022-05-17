@@ -55,3 +55,26 @@
 | 02567 | Strokes Gained  | Off-The-Tee | 
 | 02574 | Strokes Gained | Tee-To-Green  | 
 
+
+### Approach The Green Metrics
+
+| Stat_ID       | Group         | Description   |
+| ------------- |:-------------:|:-------------:|
+| 103           | GIR | GIR Percentage |
+| 02437         | GIR | Greens or Fringe in Regulation |
+| 326 | GIR | GIR Percentage - 200+ Yards |
+| 327 | GIR | GIR Percentage - 175-200 Yards |
+| 328 | GIR | GIR Percentage - 150-175 Yards |
+| 329 | GIR | GIR Percentage - 125-150 Yards |
+| 330 | GIR | GIR Percentage - <125 Yards |
+| 077 | GIR | GIR Percentage - 100 - 125 Yards |
+| 078 | GIR | GIR Percentage - 75 - 100 Yards |
+| 079 | GIR | GIR Percentage - < 75 Yards |
+| 02330 | GIR | GIR Percentage - < 100 Yards |
+| 02332 | GIR | GIR Percentage - 100+ Yards |
+| 190 | GIR | GIR Percentage from Fairway |
+| 02424 | GIR | GIR Percentage Fairway Bunker |
+| 199 | GIR | GIR Percentage From Other Than Fairway |
+
+
+
