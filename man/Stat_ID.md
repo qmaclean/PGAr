@@ -75,6 +75,40 @@
 | 190 | GIR | GIR Percentage from Fairway |
 | 02424 | GIR | GIR Percentage Fairway Bunker |
 | 199 | GIR | GIR Percentage From Other Than Fairway |
+| 331 | Accuracy From Fairway | Proximity to Hole |
+| 02358 | Accuracy From Fairway | Approaches From 200-225 Yards |
+| 02359 | Accuracy From Fairway | Approaches From 225-250 Yards |
+| 02360 | Accuracy From Fairway | Approaches From 250-275 Yards |
+| 02361 | Accuracy From Fairway | Approaches > 275 Yards |
+| 336 | Accuracy From Fairway | Approaches From >200 Yards |
+| 337 | Accuracy From Fairway | Approaches From 175-200 Yards |
+| 338 | Accuracy From Fairway | Approaches From 150-175 Yards |
+| 339 | Accuracy From Fairway | Approaches From 125-150 Yards |
+| 340 | Accuracy From Fairway | Approaches From 50-125 Yards |
+| 074 | Accuracy From Fairway | Approaches From 100-125 Yards |
+| 075 | Accuracy From Fairway | Approaches From 75-100 Yards |
+| 076 | Accuracy From Fairway | Approaches From 50-75 Yards |
+| 02329 | Accuracy From Fairway | Approaches From Inside 100 Yards |
+| 02331 | Accuracy From Fairway | Approaches From > 100 Yards |
+| 431 | Accuracy From Fairway | Fairway Proximity |
+| 432 | Accuracy From Rough | Left Rough Proximity |
+| 433 | Accuracy From Rough | Right Rough Proximity |
+| 437 | Accuracy From Rough | Rough Proximity |
+| 02362 | Accuracy From Rough | Approaches From 50-75 Yards (RGH) |
+| 02363 | Accuracy From Rough | Approaches From 75-100 Yards (RGH) |
+| 02364 | Accuracy From Rough | Approaches From 100-125 Yards (RGH) |
+| 02365 | Accuracy From Rough | Approaches From 50-125 Yards (RGH) |
+| 02366 | Accuracy From Rough | Approaches From 125-150 Yards (RGH) |
+| 02367 | Accuracy From Rough | Approaches From 150-175 Yards (RGH) |
+| 02368 | Accuracy From Rough | Approaches From 175-200 Yards (RGH) |
+| 02369 | Accuracy From Rough | Approaches From >200 Yards (RGH) |
+| 02370 | Accuracy From Rough | Approaches From <100 Yards (RGH) |
+| 02371 | Accuracy From Rough | Approaches From >100 Yards (RGH) |
+| 02372 | Accuracy From Rough | Approaches From 200-225 Yards (RGH) |
+| 02373 | Accuracy From Rough | Approaches From 225-250 Yards (RGH) |
+| 02374 | Accuracy From Rough | Approaches From 250-275 Yards (RGH) |
+| 02375 | Accuracy From Rough | Approaches From >275 Yards (RGH) |
+
 
 
 
