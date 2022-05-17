@@ -117,10 +117,21 @@
 | 359 | Scoring | Birdie or Better Percentage - 150-175 Yards |
 | 360 | Scoring | Birdie or Better Percentage - 125-150 Yards |
 | 361 | Scoring | Birdie or Better Percentage < 125 Yards |
+| 028 | Scoring | Approach 100-125 Yards (RTP Score) |
+| 029 | Scoring | Approach 75-100 Yards (RTP Score) |
+| 030 | Scoring | Approach 50 - 75 Yards (RTP Score) |
+| 472 | Scoring | Approach < 125 Yards (RTP Score) |
+| 473 | Scoring | Approach 125-150 Yards (RTP Score) |
+| 478 | Scoring | Approach 150-175 Yards (RTP Score) |
+| 479 | Scoring | Approach 175-200 Yards (RTP Score) |
+| 480 | Scoring | Approach >200 Yards (RTP Score) |
 | 02376 | Scoring | Approach 200-225 Yards (RTP) |
 | 02377 | Scoring | Approach 225-250 Yards (RTP) |
+| 02378 | Scoring | Approach 250-275 Yards (RTP) |
 | 02379 | Scoring | Approach > 275 Yards (RTP) |
-| 023
+| 02380 | Scoring | Approaches 50-75 RGH (RTP) |
+| 02381 | Scoring | Approaches 75-100 RGH (RTP) |
+
 
 
 
