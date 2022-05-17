@@ -22,8 +22,8 @@ extracting PGA data using r JSON
 | 458         | Distance (ALL DRIVES/MEASURED) | Driving Pct. <=240 (Measured) |
 | 495         | Distance (ALL DRIVES/MEASURED) | Driving Pct. 300-320 (Measured) |
 | 496         | Distance (ALL DRIVES/MEASURED) | Driving Pct. 320+ (Measured) |
-| 02341 | Percentage of Yardage Covered by Tee Shots |
-| 02342 | Percentage of Yardage Covered by Tee Shots (Par 4s) |
-| 02343 | Percentage of Yardage Covered by Tee Shots (Par 5s) |
+| 02341 | Distance (ALL DRIVES/MEASURED) | Percentage of Yardage Covered by Tee Shots |
+| 02342 | Distance (ALL DRIVES/MEASURED) | Percentage of Yardage Covered by Tee Shots (Par 4s) |
+| 02343 | Distance (ALL DRIVES/MEASURED) | Percentage of Yardage Covered by Tee Shots (Par 5s) |
 | 02567        | Strokes Gained  | Off-The-Tee | 
 | 02574         | Strokes Gained | Tee-To-Green  | 
