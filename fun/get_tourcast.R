@@ -1,25 +1,20 @@
 
 
-##### shotlink data #####
-#base_url<-"https://lbdata.pgatour.com/"
-#year<-"2022"
-#tour = "r"
-#tournament_id<-"464"
-#round<-"3"
-#player_id<-'39977'
+
+#@year<-2022
+#@tournament_id<-'464'
+#@player_id<-39977
+#@round<-4
 
 
-
-
-
-
-
+### to do -> need to figure out user link w/ httr
 get_pga_player_round<-function(year,
                      tournament_id,
                      player_id,
                      round) {
   
-  require(rjson)
+  require(httr)
+  require(jsonlite)
   require(tidyverse)
   require(tidyjson)
   
@@ -36,6 +31,9 @@ get_pga_player_round<-function(year,
     cli::cli_abort("Enter valid round number")
   }
   
+  old <- options(list(stringsAsFactors = FALSE, scipen = 999))
+  on.exit(options(old))
+  
   #### base url
   tracking_base_url<-"https://tourcastdata.pgatour.com/"
   
@@ -47,12 +45,12 @@ get_pga_player_round<-function(year,
     "/tourcast-status.json"
   )
   
+  res <- httr::RETRY("GET", tracking_url)
   
-  userTrackingId<-rjson::fromJSON(file=URLencode(tracking_url))
-  regGateType<-as.character(userTrackingId$regGateType)
+  resp<-res %>%
+    httr::content(as = "text",encoding = "UTF-8")
   
-  Sys.sleep(3) # pause system for 3 seconds
-  #regGateType
+  userTrackingId<-jsonlite::fromJSON(resp)[["regGateType"]]
   
   #### json base link
   base_url<-"https://lbdata.pgatour.com/"
@@ -62,18 +60,21 @@ get_pga_player_round<-function(year,
     "/r/",tournament_id,
     "/drawer/r",round,
     "-m",player_id,
-    ".json?userTrackingId=",regGateType
+    ".json?userTrackingId=",userTrackingId
   )
   
-  #tourcast_url
   
   
-  tourcast_json<-rjson::fromJSON(file=URLencode(tourcast_url))
-  #### grab shot data by player & round
-
+  new_res<-httr::RETRY("GET",tourcast_url)
+  
+  
+  new_resp<-new_res %>%
+    httr::content(as = "text",encoding = "UTF-8")
+  
+  tourcast_json<-jsonlite::fromJSON(new_resp)
   
   pbp<-tourcast_json$shotTracker$pickle$playersHoles %>%
-    spread_all() %>%
+    tidyspread_all() %>%
     enter_object("players") %>%
     gather_array() %>%
     spread_all() %>%
