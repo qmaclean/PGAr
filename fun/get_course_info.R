@@ -1,10 +1,12 @@
 
 ###### sample
-year<-2019
-tournament_id<-'011'
+#year<-2022
+#tournament_id<-'019'
+#course_id<-'894'
 
 course_info<-function(year,
-                      tournament_id) {
+                      tournament_id,
+                      course_id) {
   
   require(rjson)
   require(tidyverse)
@@ -23,7 +25,7 @@ course_info<-function(year,
     base_url,
     "/",tournament_id,
     "/",year,
-    "/",tournament_id,
+    "/",course_id,
     "/course.json"
   )
   
@@ -47,7 +49,7 @@ course_info<-function(year,
     #       poi_location_z = .data$location_z
     #       )
   
-  df$tournamnetNumber<-course_js$tournamentNumber
+  df$tournamentNumber<-course_js$tournamentNumber
   df$tourCode<-course_js$tourCode
   df$seasonYear<-course_js$seasonYear
   df$eventId<-course_js$eventId
@@ -57,17 +59,6 @@ course_info<-function(year,
   
 }
   
-#   @test
-getwd()
-setwd("/Users/qmaclean/Desktop/Data_Science_Projects_Personal/PGAr/PGAr/data/course_info/2015")
-
-year<-2015
-tournament_id<-'010'
-df<-course_info(year,tournament_id)
-
-write.csv(df,"course_info_2015_011.csv")
-
-#### notes; doesn't work for all courses
 
 
 
