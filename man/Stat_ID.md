@@ -203,6 +203,8 @@
 | Stat_ID       | Metric Group         | Metric   |
 | ------------- |:-------------:|:-------------:|
 | 398           | One-Putts | 1-Putts Per Round |
+| 400 | Three-Putts | 3-Putts Per Round |
+| 401 | Three-Putts | 3+ Putts Per Round |
 | 413 | One-Putts | One-Putt Percentage |
 | 414 | One-Putts | One-Putt Percentage - Round 1 |
 | 415 | One-Putts | One-Putt Percentage - Round 2 |
@@ -224,6 +226,16 @@
 | 440 | Three-Putts | 3-Putt Avoidance - Round 5 |
 | 441 | Three-Putts | Total 3 Putts - Inside 5' |
 | 442 | Three-Putts | Total 3 Putts - 5-10' |
+| 443 | Three-Putts | Total 3 Putts - 10-15' |
+| 444 | Three-Putts | Total 3 Putts - 15-20' |
+| 445 | Three-Putts | Total 3 Putts - 20-25' |
+| 446 | Three-Putts | Total 3 Putts >25' |
+| 068 | Three-Putts | 3-Putt Avoidance - Inside 5' |
+| 069 | Three-Putts | 3-Putt Avoidance - 5-10' |
+| 070 | Three-Putts | 3-Putt Avoidance - 10-15' |
+| 145 | Three-Putts | 3-Putt Avoidance - 15-20' |
+| 146 | Three-Putts | 3-Putt Avoidance - 20-25' |
+| 147 | Three-Putts | 3-Putt Avoidance - >25' |
 
 
 
