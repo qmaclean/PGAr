@@ -129,8 +129,36 @@
 | 02377 | Scoring | Approach 225-250 Yards (RTP) |
 | 02378 | Scoring | Approach 250-275 Yards (RTP) |
 | 02379 | Scoring | Approach > 275 Yards (RTP) |
-| 02380 | Scoring | Approaches 50-75 RGH (RTP) |
-| 02381 | Scoring | Approaches 75-100 RGH (RTP) |
+| 02380 | Scoring | Approaches 50-75 Yards RGH (RTP) |
+| 02381 | Scoring | Approaches 75-100 Yards RGH (RTP) |
+| 02382 | Scoring | Approaches 100-125 Yard RGH (RTP) |
+| 02383 | Scoring | Approaches 50-125 Yards RGH (RTP) |
+| 02384 | Scoring | Approaches 125-150 Yards RGH (RTP) |
+| 02385 | Scoring | Approaches 150-175 Yards RGH (RTP) |
+| 02386 | Scoring | Approaches 175-200 Yards RGH (RTP) |
+| 02387 | Scoring | Approaches >200 Yards RGH (RTP) |
+| 02388 | Scoring | Approaches < 100 Yards RGH (RTP) |
+| 02389 | Scoring | Approaches >100 Yards RGH (RTP) |
+| 02390 | Scoring | Approaches 200-225 Yards RGH (RTP) |
+| 02391 | Scoring | Approaches 225-250 Yards RGH (RTP) |
+| 02392 | Scoring | Approaches 250-275 Yards RGH (RTP) |
+| 02393 | Scoring | Approaches >275 Yards RGH (RTP) |
+| 469 | Scoring | Approaches Left Rough (RTP) |
+| 470 | Scoring | Approaches Right Rough (RTP) |
+| 471 | Scoring | Fairway Approach (RTP Score) |
+| 419 | Going For Green | Going For The Green |
+| 436 | Going For Green | Par 5 Going For The Green |
+| 486 | Going For Green | Going For The Green - Hit Green Pct |
+| 02357 | Going For Green | Going For The Green - Birdie or Better |
+| 02426 | Going For Green | Average Going For It Shot Distance (In Yards) |
+| 02431 | Going For Green | Average Distance After Going For It Shot |
+| 350 | Holeouts, Other | Total Holeouts |
+| 351 | Holeouts, Other | Longest Holeouts (In Yds) |
+| 02325 | Holeouts, Other | Average Approach Shot Distance |
+| 02330 | Holeouts, Other | Average Distance to Hole After Tee Shot |
+| 02338 | Holeouts, Other | Average Approach Distance - Birdie or Better |
+| 02339 | Holeouts, Other | Average Approach Distance - Par |
+| 02340 | Holeouts, Other | Average Approach Distance - Bogey or Worse |
 
 
 
