@@ -159,6 +159,42 @@
 | 02338 | Holeouts, Other | Average Approach Distance - Birdie or Better |
 | 02339 | Holeouts, Other | Average Approach Distance - Par |
 | 02340 | Holeouts, Other | Average Approach Distance - Bogey or Worse |
+| 02568 | Strokes Gained | Strokes Gained: Approach the Green |
+
+
+### Around The Green Metrics
+
+| Stat_ID       | Group         | Description   |
+| ------------- |:-------------:|:-------------:|
+| 111           | Up And Down | Sand Save Pct |
+| 370 | Up And Down | Sand Saves From 30+ Yards |
+| 371 | Up And Down | Sand Saves From 20-30 Yards |
+| 372 | Up And Down | Sand Saves From 10-20 Yards |
+| 373 | Up And Down | Sand Saves From <10 Yards |
+| 130 | Up And Down | Scrambling |
+| 362 | Up And Down | Scrambling From The Sand |
+| 363 | Up And Down | Scrambling From The Rough |
+| 364 | Up And Down | Scrambling From The Fringe |
+| 365 | Up And Down | Scrambling From Other Locations |
+| 366 | Up And Down | Scrambling From >30 Yards |
+| 367 | Up And Down | Scrambling From 20-30 Yards |
+| 368 | Up And Down | Scrambling From 10-20 Yards |
+| 369 | Up And Down | Scrambling From <10 Yards |
+| 374 | Accuracy | Proximity To Hole (ARG) |
+| 375 | Accuracy | Proximity To Hole From Sand |
+| 376 | Accuracy | Proximity To Hole From Rough |
+| 377 | Accuracy | Proximity To Hole From Fringe |
+| 378 | Accuracy | Proximity To Hole From Other Locations |
+| 379 | Accuracy | Proximity To Hole From 30+ Yards |
+| 380 | Accuracy | Proximity To Hole From 20-30 Yards |
+| 381 | Accuracy | Proximity To Hole From 10-20 Yards |
+| 382 | Accuracy | Proximity To Hole < 10 Yards |
+| 481 | Accuracy | Scrambling Average Distance To Hole |
+| 464 | Scoring | Scrambling Rough (RTP Score) |
+| 465 | Scoring | Scrambling Fringe (RTP Score) |
+| 466 | Scoring | Scrambling >30 Yards (RTP Score) |
+| 467 | Scoring | Scrambling 20-30 Yards (RTP Score) |
+| 468 | Scoring | Scrambling 10-20 Yards (RTP Score) |
 
 
 
