@@ -343,7 +343,12 @@
 | 245 | Scoring By Round | Front 9 Round 1 Scoring Average |
 | 246 | Scoring By Round | Back 9 Round 1 Scoring Average |
 | 253 | Scoring By Round | Front 9 Round 2 Scoring Average |
-|
+| 254 | Scoring By Round | Back 9 Round 2 Scoring Average |
+| 261 | Scoring By Round | Front 9 Round 3 Scoring Average |
+| 262 | Scoring By Round | Back 9 Round 3 Scoring Average |
+| 269 | Scoring By Round | Front 9 Round 4 Scoring Average |
+| 270 | Scoring By Round | Back 9 Round 4 Scoring Average |
+
 
 
 
