@@ -2,7 +2,7 @@
 
 ### Off The Tee Metrics
 
-| Stat_ID       | Group         | Description   |
+| Stat_ID       | Metric Group         | Metric   |
 | ------------- |:-------------:|:-------------:|
 | 101           | Distance (ALL DRIVES/MEASURED) | Driving Distance |
 | 159          | Distance (ALL DRIVES/MEASURED) | Longest Drives |
@@ -58,7 +58,7 @@
 
 ### Approach The Green Metrics
 
-| Stat_ID       | Group         | Description   |
+| Stat_ID       | Metric Group         | Metric   |
 | ------------- |:-------------:|:-------------:|
 | 103           | GIR | GIR Percentage |
 | 02437         | GIR | Greens or Fringe in Regulation |
@@ -164,7 +164,7 @@
 
 ### Around The Green Metrics
 
-| Stat_ID       | Group         | Description   |
+| Stat_ID       | Metric Group         | Metric   |
 | ------------- |:-------------:|:-------------:|
 | 111           | Up And Down | Sand Save Pct |
 | 370 | Up And Down | Sand Saves From 30+ Yards |
@@ -195,6 +195,35 @@
 | 466 | Scoring | Scrambling >30 Yards (RTP Score) |
 | 467 | Scoring | Scrambling 20-30 Yards (RTP Score) |
 | 468 | Scoring | Scrambling 10-20 Yards (RTP Score) |
+| 02569 | Strokes Gained | Strokes Gained: Around-The-Green |
+
+
+### Putting
+
+| Stat_ID       | Metric Group         | Metric   |
+| ------------- |:-------------:|:-------------:|
+| 398           | One-Putts | 1-Putts Per Round |
+| 413 | One-Putts | One-Putt Percentage |
+| 414 | One-Putts | One-Putt Percentage - Round 1 |
+| 415 | One-Putts | One-Putt Percentage - Round 2 |
+| 416 | One-Putts | One-Putt Percentage - Round 3 |
+| 417 | One-Putts | One-Putt Percentage - Round 4 |
+| 418 | One-Putts | One-Putt Percentage - Round 5 |
+| 420 | One-Putts | Total 1 Putts - Inside 5' |
+| 421 | One-Putts | Total 1 Putts - 5-10' |
+| 422 | One-Putts | Total 1 Putts - 10-15' |
+| 423 | One-Putts | Total 1 Putts - 15-20' |
+| 424 | One-Putts | Total 1 Putts - 20-25' |
+| 425 | One-Putts | Total 1 Putts >25' |
+| 498 | One-Putts | Longest Putts |
+| 426 | Three-Putts | 3-Putt Avoidance |
+| 427 | Three-Putts | 3-Putt Avoidance - Round 1 |
+| 428 | Three-Putts | 3-Putt Avoidance - Round 2 |
+| 429 | Three-Putts | 3-Putt Avoidance - Round 3 |
+| 430 | Three-Putts | 3-Putt Avoidance - Round 4 |
+| 440 | Three-Putts | 3-Putt Avoidance - Round 5 |
+| 441 | Three-Putts | Total 3 Putts - Inside 5' |
+| 442 | Three-Putts | Total 3 Putts - 5-10' |
 
 
 
