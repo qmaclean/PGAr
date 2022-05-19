@@ -236,6 +236,73 @@
 | 145 | Three-Putts | 3-Putt Avoidance - 15-20' |
 | 146 | Three-Putts | 3-Putt Avoidance - 20-25' |
 | 147 | Three-Putts | 3-Putt Avoidance - >25' |
+| 341 | All Putts Made By Distance | Putting From 3' |
+| 342 | All Putts Made By Distance | Putting From 4' |
+| 343 | All Putts Made By Distance | Putting From 5' |
+| 344 | All Putts Made By Distance | Putting From 6' |
+| 345 | All Putts Made By Distance | Putting From 7' |
+| 346 | All Putts Made By Distance | Putting From 8' |
+| 347 | All Putts Made By Distance | Putting From 9' |
+| 348 | All Putts Made By Distance | Putting From 10' |
+| 356 | All Putts Made By Distance | Putting From >10' |
+| 403 | All Putts Made By Distance | Putting From Inside 5' |
+| 404 | All Putts Made By Distance | Putting From 5-10' |
+| 405 | All Putts Made By Distance | Putting From 10-15' |
+| 406 | All Putts Made By Distance | Putting From 15-20' |
+| 407 | All Putts Made By Distance | Putting From 20-25' |
+| 408 | All Putts Made By Distance | Putting From >25' |
+| 434 | All Putts Made By Distance | Putts Made Per Event Over 10' |
+| 435 | All Putts Made By Distance | Putts Made Per Event Over 20' |
+| 484 | All Putts Made By Distance | Putting From Inside 10' |
+| 485 | All Putts Made By Distance | Putting From 4-8' |
+| 02327 | All Putts Made By Distance | Putting From 5-15' |
+| 02328 | All Putts Made By Distance | Putting From 15-25' |
+| 02427 | All Putts Made By Distance | Putting From 3-5' |
+| 02429 | All Putts Made By Distance | Putting From >20' |
+| 071 | GIR Putts Made By Distance | GIR Putting Avg - 25-30' |
+| 072 | GIR Putts Made By Distance | GIR Putting Avg - 30-35' |
+| 073 | GIR Putts Made By Distance | GIR Putting Avg > 35' |
+| 383 | GIR Putts Made By Distance | GIR Putting - Inside 5' |
+| 384 | GIR Putts Made By Distance | GIR Putting 5-10' |
+| 385 | GIR Putts Made By Distance | GIR Putting 10-15' |
+| 386 | GIR Putts Made By Distance | GIR Putting 15-20' |
+| 387 | GIR Putts Made By Distance | GIR Putting 20-25' |
+| 388 | GIR Putts Made By Distance | GIR Putting >25' |
+| 119 | Putts Per Round | Putts Per Round |
+| 393 | Putts Per Round | Putts Per Round - Round 1 |
+| 394 | Putts Per Round | Putts Per Round - Round 2 |
+| 395 | Putts Per Round | Putts Per Round - Round 3 |
+| 396 | Putts Per Round | Putts Per Round - Round 4 |
+| 397 | Putts Per Round | Putts Per Round - Round 5 |
+| 398 | Putts Per Round | 1-Putts Per Round |
+| 399 | Putts Per Round | 2-Putts Per Round |
+| 400 | Putts Per Round | 3-Putts Per Round |
+| 401 | Putts Per Round | 3+ Putts Per Round |
+| 402 | Putting Averages | Overall Putting Average |
+| 104 | Putting Averages | Putting Avg |
+| 115 | Putting Averages | Birdie or Better Conversion Percentage |
+| 02428 | Putting Averages | Total Putting |
+| 02439 | Putting Averages | Bonus Putting |
+| 135 | Average Putting Distance | Putts Made Distance |
+| 349 | Average Putting Distance | Approach Putt Performance |
+| 389 | Average Putting Distance | GIR 1 Putts |
+| 390 | Average Putting Distance | GIR 2 Putts |
+| 391 | Average Putting Distance | GIR 3 Putts |
+| 392 | Average Putting Distance | GIR 3+ Putts |
+| 409 | Average Putting Distance | Average Putting Distance - ALL 1 Putts |
+| 410 | Average Putting Distance | Average Putting Distance - ALL 2 Putts |
+| 411 | Average Putting Distance | Average Putting Distance - ALL 3 Putts |
+| 412 | Average Putting Distance | Average Putting Distance - ALL 3+ Putts |
+| 438 | Average Putting Distance | Average Distance of Putts Made |
+| 02440 | Average Putting Distance | Average Distance of Birdie Putts Made |
+| 02442 | Average Putting Distance | Average Distance of Eagle Putts Made |
+| 02564 | Strokes Gained | Putting |
+
+
+### Scoring ###
+
+
+
 
 
 
