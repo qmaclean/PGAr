@@ -300,6 +300,50 @@
 
 
 ### Scoring ###
+| Stat_ID       | Metric Group         | Metric   |
+| ------------- |:-------------:|:-------------:|
+| 108           | Scoring Overall | Scoring Avg (Actual) |
+| 116           | Scoring Overall | Scoring Avg Before Cut |
+| 120           | Scoring Overall | Scoring Avg |
+| 152           | Scoring Overall | Rounds in the 60s |
+| 153           | Scoring Overall | Sub-Par Rounds |
+| 299           | Scoring Overall | Lowest Round |
+| 02417         | Scoring Overall | Stroke Differential Field Average |
+| 105           | Under Par Scoring | Par Breakers |
+| 106           | Under Par Scoring | Total Eagles |
+| 107           | Under Par Scoring | Total Birdies |
+| 112           | Under Par Scoring | Par 3 Birdie or Better Leaders |
+| 113   | Under Par Scoring | Par 4 Birdie or Better Leaders |
+| 114   | Under Par Scoring | Par 5 Birdie or Better Leaders |
+| 155   | Under Par Scoring | Eagles (Holes Per) |
+| 156   | Under Par Scoring | Birdie Average |
+| 160   | Under Par Scoring | Bounce Back |
+| 352   | Under Par Scoring | Birdie or Better Percentage |
+| 357   | Under Par Scoring | Birdie or Better - 200+ Yards |
+| 358   | Under Par Scoring | Birdie or Better - 175-200 Yards |
+| 359   | Under Par Scoring | Birdie or Better - 150-175 Yards |
+| 360   | Under Par Scoring | Birdie or Better  - 125-150 Yards |
+| 361   | Under Par Scoring | Birdie or Better - < 125 Yards |
+| 447   | Under Par Scoring | Par 4 Eagle Leaders |
+| 448   | Under Par Scoring | Par 5 Eagle Leaders |
+| 02333 | Under Par Scoring | Birdie or Better Percentage - Fairway |
+| 02334 | Under Par Scoring | Birdie or Better Percentage - Left Rough |
+| 02335 | Under Par Scoring | Birdie or Better Percentage - Right Rough |
+| 02336 | Under Par Scoring | Birdie or Better Percentage - Rough |
+| 02414 | Over Par Scoring | Bogey Avoidance |
+| 02415 | Over Par Scoring | Birdie to Bogey Ratio |
+| 02416 | Over Par Scoring | Reverse Bounce Back |
+| 02419 | Over Par Scoring | Bogey Average |
+| 117 | Scoring By Round | Round 3 Scoring Average |
+| 118 | Scoring By Round | Final Round Scoring Average |
+| 148 | Scoring By Round | Round 1 Scoring Average |
+| 149 | Scoring By Round | Round 2 Scoring Average |
+| 219 | Scoring By Round | Final Round Performance |
+| 220 | Scoring By Round | Top 10 Final Round Performance |
+| 245 | Scoring By Round | Front 9 Round 1 Scoring Average |
+| 246 | Scoring By Round | Back 9 Round 1 Scoring Average |
+| 253 | Scoring By Round | Front 9 Round 2 Scoring Average |
+|
 
 
 
