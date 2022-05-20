@@ -8,5 +8,5 @@ To-do:
 -Scrape previous years schedule \
 -Figure UserTrackingId url update for previous years in order to get play-by-play data and tracking data \
 -List all course/tournament combos \
--Scrape ESPN data \
+-Scrape ESPN data 
 
