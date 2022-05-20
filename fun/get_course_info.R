@@ -8,7 +8,8 @@ course_info<-function(year,
                       tournament_id,
                       course_id) {
   
-  require(rjson)
+  require(httr)
+  require(jsonlite)
   require(tidyverse)
   require(tidyjson)
   
@@ -29,32 +30,23 @@ course_info<-function(year,
     "/course.json"
   )
   
-  course_js<-rjson::fromJSON(file=URLencode(full_url))
+  res <- httr::RETRY("GET", full_url)
   
-  df<-course_js %>%
-    purrr::pluck("holes") %>%
-    tidyjson::spread_all() %>%
-    tidyjson::enter_object("rounds") %>%
-    tidyjson::gather_array("roundNumber") %>%
-    tidyjson::spread_all() %>%
-    tidyjson::enter_object("poi") %>%
-    tidyjson::gather_array("name") %>%
-    tidyjson::spread_all() %>%
-    as_tibble() 
-    #%>%
-    #rename(poi = .data$name,
-    #       poi_description = .data$name.2,
-    #       poi_location_x = .data$location_x,
-    #       poi_location_y = .data$location_y,
-    #       poi_location_z = .data$location_z
-    #       )
+  resp<-res %>%
+    httr::content(as = "text",encoding = "UTF-8")
   
-  df$tournamentNumber<-course_js$tournamentNumber
-  df$tourCode<-course_js$tourCode
-  df$seasonYear<-course_js$seasonYear
-  df$eventId<-course_js$eventId
-  df$courseNumber<-course_js$courseNumber
+  course_js<-jsonlite::fromJSON(resp,flatten = TRUE)
   
+  course_js<-course_js %>%
+    map_if(is.data.frame,list) %>%
+    as_tibble() %>%
+    unnest(holes) %>%
+    unnest(rounds) %>%
+    unnest(poi) %>%
+    select(-msg_id) %>%
+    as.tibble()
+
+
   return(df)
   
 }
