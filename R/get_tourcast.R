@@ -73,20 +73,21 @@ get_pga_player_round<-function(year,
   
   tourcast_json<-jsonlite::fromJSON(new_resp)
   
-  pbp<-tourcast_json$shotTracker$pickle$playersHoles %>%
-    tidyspread_all() %>%
-    enter_object("players") %>%
-    gather_array() %>%
-    spread_all() %>%
-    dplyr::filter(array.index == 1) %>%
-    enter_object("shots") %>%
-    gather_array() %>%
-    spread_all() %>%
-    as_tibble() 
+  ####### disregard flattening logic for now #####
+  #pbp<-tourcast_json$shotTracker$pickle$playersHoles %>%
+  #  tidyjson::spread_all() %>%
+  #  enter_object("players") %>%
+  #  gather_array() %>%
+  #  spread_all() %>%
+  #  dplyr::filter(array.index == 1) %>%
+  #  enter_object("shots") %>%
+  #  gather_array() %>%
+  #  spread_all() %>%
+  #  as_tibble() 
   
-  pbp$year<-year
-  pbp$tournament_id
-  pbp$round<-round
+  #pbp$year<-year
+  #pbp$tournament_id
+  #pbp$round<-round
 
   return(df)
  
