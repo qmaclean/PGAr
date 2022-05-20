@@ -16,6 +16,18 @@ get_tourney_stat_leaderboard<-function(year,
   require(rvest)
   require(janitor)
   
+  ### checks
+  if(!is.numeric(year) && nchar(year) != 4){
+    cli::cli_abort("Enter a valid numeric year (YYYY)")
+  }
+  
+  if(nchar(tournament_id) != 3){
+    cli::cli_abort("Enter a valid tournament id")
+  }
+  
+  if(nchar(round) < 3){
+    cli::cli_abort("Enter valid stat_id")
+  }
   
 
 base_url<-"https://www.pgatour.com/content/pgatour/stats/stat"
