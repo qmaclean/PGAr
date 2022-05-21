@@ -1,17 +1,18 @@
 
 
 
-#@year<-2022
-#@tournament_id<-'464'
-#@player_id<-39977
-#@round<-4
+year<-2022
+tournament_id<-'464'
+player_id<-"47483"
+round<-"4"
 
 
 ### to do -> need to figure out user link w/ httr
 get_pga_player_round<-function(year,
                      tournament_id,
                      player_id,
-                     round) {
+                     round,
+                     params = list()) {
   
   require(httr)
   require(jsonlite)
@@ -31,11 +32,20 @@ get_pga_player_round<-function(year,
     cli::cli_abort("Enter valid round number")
   }
   
-  old <- options(list(stringsAsFactors = FALSE, scipen = 999))
-  on.exit(options(old))
+
+  
+  headers<- c(
+    `Host` = 'tourcastdata.pgatour.com',
+    `User-Agent` = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36',
+    `Accept` = '*/*'#,
+    #`Origin` = 'https://www.pgatour.com',
+    #`Referer` = 'https://www.pgatour.com/'
+  )
+  
   
   #### base url
   tracking_base_url<-"https://tourcastdata.pgatour.com/"
+  
   
   #### grab TrackingID for params
   tracking_url<-paste0(
@@ -45,12 +55,17 @@ get_pga_player_round<-function(year,
     "/tourcast-status.json"
   )
   
-  res <- httr::RETRY("GET", tracking_url)
+ 
+  
+  res <- httr::RETRY("GET", tracking_url,
+                     httr::add_headers(.headers = headers))
   
   resp<-res %>%
     httr::content(as = "text",encoding = "UTF-8")
   
   userTrackingId<-jsonlite::fromJSON(resp)[["regGateType"]]
+  
+  userTrackingId
   
   #### json base link
   base_url<-"https://lbdata.pgatour.com/"
@@ -63,31 +78,46 @@ get_pga_player_round<-function(year,
     ".json?userTrackingId=",userTrackingId
   )
   
+  tourcast_url<-"https://lbdata.pgatour.com/2022/r/033/drawer/r2-m47483.json?userTrackingId=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTMxMDIxNTQsIm5iZiI6MTY1MzEwMjE1NCwiZXhwIjoxNjUzMTAzOTU0fQ.rxAdoRVdmo8BFNliJmE2ach82Q2k2f0kjIrVLNLDLaI"
+  
+  tour_headers<- c(
+    `Host` = 'lbdata.pgatour.com',
+    `User-Agent` = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36',
+    `Accept` = 'application/json, text/xml, application/xml, */*'
+  )
   
   
-  new_res<-httr::RETRY("GET",tourcast_url)
+  new_res<-httr::RETRY("GET",tourcast_url,
+                       httr::add_headers(.headers = tour_headers)
+                  )
   
   
   new_resp<-new_res %>%
     httr::content(as = "text",encoding = "UTF-8")
   
-  tourcast_json<-jsonlite::fromJSON(new_resp)
+  tourcast_json<-jsonlite::fromJSON(new_resp,flatten = TRUE)
   
   ####### disregard flattening logic for now #####
-  #pbp<-tourcast_json$shotTracker$pickle$playersHoles %>%
-  #  tidyjson::spread_all() %>%
-  #  enter_object("players") %>%
-  #  gather_array() %>%
-  #  spread_all() %>%
-  #  dplyr::filter(array.index == 1) %>%
-  #  enter_object("shots") %>%
-  #  gather_array() %>%
-  #  spread_all() %>%
-  #  as_tibble() 
+  df<-tourcast_json$shotTracker$pickle$playersHoles %>%
+    unnest() %>%
+    dplyr::filter(playerId == player_id) %>%
+    unnest(shots)
   
-  #pbp$year<-year
-  #pbp$tournament_id
-  #pbp$round<-round
+  ### static variables
+  df$roundId<-tourcast_json$roundId
+  df$groupId<-tourcast_json$groupId
+  df$tournamentRoundId<-tourcast_json$tournamentRoundId
+  df$startingHoleId<-tourcast_json$startingHoleId
+  df$courseId<-tourcast_json$courseId
+  df$firstName<-tourcast_json$shotTracker$pickle$firstName
+  df$lastName<-tourcast_json$shotTracker$pickle$lastName
+  
+  holes<-tourcast_json$shotTracker$details$holes %>%
+    unnest()
+  
+  df<-df %>%
+    left_join(holes,by=c("holeId"))
+  
 
   return(df)
  
