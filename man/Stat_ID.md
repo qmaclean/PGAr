@@ -334,12 +334,18 @@
 | 02415 | Over Par Scoring | Birdie to Bogey Ratio |
 | 02416 | Over Par Scoring | Reverse Bounce Back |
 | 02419 | Over Par Scoring | Bogey Average |
-| 117 | Scoring By Round | Round 3 Scoring Average |
 | 118 | Scoring By Round | Final Round Scoring Average |
 | 148 | Scoring By Round | Round 1 Scoring Average |
 | 149 | Scoring By Round | Round 2 Scoring Average |
+| 117 | Scoring By Round | Round 3 Scoring Average |
+| 285 | Scoring By Round | Round 4 Scoring Average |
+| 286 | Scoring By Round | Round 5 Scoring Average |
 | 219 | Scoring By Round | Final Round Performance |
 | 220 | Scoring By Round | Top 10 Final Round Performance |
+| 309 | Scoring By Round | Top 5 Final Round Performance |
+| 310 | Scoring By Round | 11-25 Final Round Performance |
+| 311 | Scoring By Round | 25+ Final Round Performance |
+| 453 | Scoring By Round | 6-10 Final Round Performance |
 | 245 | Scoring By Round | Front 9 Round 1 Scoring Average |
 | 246 | Scoring By Round | Back 9 Round 1 Scoring Average |
 | 253 | Scoring By Round | Front 9 Round 2 Scoring Average |
@@ -348,7 +354,34 @@
 | 262 | Scoring By Round | Back 9 Round 3 Scoring Average |
 | 269 | Scoring By Round | Front 9 Round 4 Scoring Average |
 | 270 | Scoring By Round | Back 9 Round 4 Scoring Average |
-
+| 277 | Scoring By Round | Front 9 Round 5 Scoring Average |
+| 278 | Scoring By Round | Back 9 Round 5 Scoring Average |
+| 112 | Par 3,4,5 Scoring | Par 3 Birdie or Better Leaders |
+| 113 | Par 3,4,5 Scoring | Par 4 Birdie or Better Leaders |
+| 114 | Par 3,4,5 Scoring | Par 5 Birdie or Better Leaders |
+| 142 | Par 3,4,5 Scoring | Par 3 Scoring Average |
+| 143 | Par 3,4,5 Scoring | Par 4 Scoring Average |
+| 144 | Par 3,4,5 Scoring | Par 5 Scoring Average |
+| 171 | Par 3,4,5 Scoring | Par 3 Performance |
+| 172 | Par 3,4,5 Scoring | Par 4 Performance |
+| 173 | Par 3,4,5 Scoring | Par 5 Performance |
+| 223 | Par 3,4,5 Scoring | Early Par 3 Scoring Average |
+| 224 | Par 3,4,5 Scoring | Late Par 3 Scoring Average |
+| 231 | Par 3,4,5 Scoring | Early Par 4 Scoring Average |
+| 232 | Par 3,4,5 Scoring | Late Par 4 Scoring Average |
+| 239 | Par 3,4,5 Scoring | Early Par 5 Scoring Average |
+| 240 | Par 3,4,5 Scoring | Late Par 5 Scoring Average |
+| 448 | Par 3,4,5 Scoring | Par 5 Eagle Leaders |
+| 207 | Front 9 Scoring | Front 9 Scoring Average |
+| 221 | Front 9 Scoring | Front 9 Par 3 Scoring Average |
+| 229 | Front 9 Scoring | Front 9 Par 4 Scoring Average |
+| 237 | Front 9 Scoring | Front 9 Par 5 Scoring Average |
+| 301 | Front 9 Scoring | Front 9 Lowest Round |
+| 208 | Back 9 Scoring | Back 9 Scoring Average |
+| 222 | Back 9 Scoring | Back 9 Par 3 Scoring Average |
+| 230 | Back 9 Scoring | Back 9 Par 4 Scoring Average |
+| 238 | Back 9 Scoring | Back 9 Par 5 Scoring Average |
+| 302 | Back 9 Scoring | Back 9 Lowest Round |
 
 
 
