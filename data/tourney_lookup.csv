@@ -1,0 +1,891 @@
+﻿Year,Tournament_ID,Tournament_Number,Course_ID,CourseName,Tournament Name,StartDate,EndDate, Purse , Country ,City,State
+2022,464,10,552,Silverado Resort and Spa North,Fortinet Championship,9/16/21,9/19/21,"$7,000,000 ", USA ,Napa,CA
+2022,468,20,904,Whistling Straits,Ryder Cup,9/24/21,9/26/21,, USA ,Sheboygan,WI
+2022,54,30,746,Country Club of Jackson,Sanderson Farms Championship,9/30/21,10/3/21,"$7,000,000 ", USA ,Jackson,MS
+2022,47,40,538,TPC Summerlin,Shriners Children's Open,10/7/21,10/10/21,"$7,000,000 ", USA ,Las Vegas,NV
+2022,521,50,899,The Summit Club,THE CJ CUP @ SUMMIT,10/14/21,10/17/21,"$9,750,000 ", USA ,Las Vegas,NV
+2022,527,60,875,Accordia Golf Narashino CC,ZOZO CHAMPIONSHIP,10/21/21,10/24/21,"$9,950,000 ", JPN ,Chiba,
+2022,528,70,765,Port Royal Golf Course,Butterfield Bermuda Championship,10/28/21,10/31/21,"$6,500,000 ", BER ,Southampton,
+2022,457,90,733,El Camaleon Golf Club,World Wide Technology Championship at Mayakoba,11/4/21,11/7/21,"$7,200,000 ", MEX ,Riviera Maya,
+2022,20,100,897,Memorial Park Golf Course,Hewlett Packard Enterprise Houston Open,11/11/21,11/14/21,"$7,500,000 ", USA ,Houston,TX
+2022,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/18/21,11/21/21,"$7,200,000 ", USA ,Sea Island,GA
+2022,478,115,232,Albany,Hero World Challenge,12/2/21,12/5/21,"$3,500,000 ", BAH ,New Providence,
+2022,58,120,678,Tiburón Golf Course,QBE Shootout,12/10/21,12/12/21,"$3,600,000 ", USA ,Naples,FL
+2022,16,130,656,Plantation Course at Kapalua,Sentry Tournament of Champions,1/6/22,1/9/22,"$8,200,000 ", USA ,Maui,HI
+2022,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/13/22,1/16/22,"$7,500,000 ", USA ,Honolulu,HI
+2022,2,150,704,Pete Dye Stadium Course,The American Express,1/20/22,1/23/22,"$7,600,000 ", USA ,La Quinta,CA
+2022,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/26/22,1/29/22,"$8,400,000 ", USA ,San Diego,CA
+2022,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/3/22,2/6/22,"$8,700,000 ", USA ,Pebble Beach,CA
+2022,3,180,510,TPC Scottsdale,WM Phoenix Open,2/10/22,2/13/22,"$8,200,000 ", USA ,Scottsdale,AZ
+2022,7,190,500,The Riviera Country Club,The Genesis Invitational,2/17/22,2/20/22,"$12,000,000 ", USA ,Pacific Palisades,CA
+2022,10,200,734,PGA National (Champion),The Honda Classic,2/24/22,2/27/22,"$8,000,000 ", USA ,Palm Beach Gardens,FL
+2022,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,3/3/22,3/6/22,"$3,700,000 ", PUR ,Rio Grande,
+2022,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/3/22,3/6/22,"$12,000,000 ", USA ,Orlando,FL
+2022,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/10/22,3/13/22,"$20,000,000 ", USA ,Ponte Vedra Beach,FL
+2022,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/17/22,3/20/22,"$7,800,000 ", USA ,Palm Harbor,FL
+2022,522,250,244,Corales Golf Club,Corales Puntacana Championship,3/24/22,3/27/22,"$3,700,000 ", DOM ,Punta Cana,
+2022,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/23/22,3/27/22,"$12,000,000 ", USA ,Austin,TX
+2022,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,3/31/22,4/3/22,"$8,600,000 ", USA ,San Antonio,TX
+2022,14,280,14,Augusta National Golf Club,Masters Tournament,4/7/22,4/10/22,"$15,000,000 ", USA ,Augusta,GA
+2022,12,290,12,Harbour Town Golf Links,RBC Heritage,4/14/22,4/17/22,"$8,000,000 ", USA ,Hilton Head,SC
+2022,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/21/22,4/24/22,"$8,300,000 ", USA ,Avondale,LA
+2022,540,310,978,Vidanta Vallarta,Mexico Open at Vidanta,4/28/22,5/1/22,"$7,300,000 ", MEX ,Vallarta,
+2022,480,320,237,TPC Potomac at Avenel Farm,Wells Fargo Championship,5/5/22,5/8/22,"$9,000,000 ", USA ,Potomac,MD
+2022,19,330,894,TPC Craig Ranch,AT&T Byron Nelson,5/12/22,5/15/22,"$9,100,000 ", USA ,McKinney,TX
+2022,33,340,611,Southern Hills CC,PGA Championship,5/19/22,5/22/22,"$12,000,000 ", USA ,Tulsa,OK
+2022,21,350,21,Colonial Country Club,Charles Schwab Challenge,5/26/22,5/29/22,"$8,400,000 ", USA ,Fort Worth,TX
+2022,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Workday,6/2/22,6/5/22,"$12,000,000 ", USA ,Dublin,OH
+2022,32,370,772,St. George's G&CC,RBC Canadian Open,6/9/22,6/12/22,"$8,700,000 ", CAN ,Toronto,ON
+2022,26,380,654,The Country Club,U.S. Open,6/16/22,6/19/22,, USA ,Brookline,MA
+2022,34,390,503,TPC River Highlands,Travelers Championship,6/23/22,6/26/22,"$8,300,000 ", USA ,Cromwell,CT
+2022,30,400,669,TPC Deere Run,John Deere Classic,6/30/22,7/3/22,"$7,100,000 ", USA ,Silvis,IL
+2022,518,410,884,Keene Trace Golf Club,Barbasol Championship,7/7/22,7/10/22,"$3,700,000 ", USA ,Nicholasville,KY
+2022,,,,The Renaissance Club,Genesis Scottish Open,7/7/22,7/10/22,, SCO ,North Berwick,
+2022,472,430,890,Tahoe Mt. Club (Old Greenwood),Barracuda Championship,7/14/22,7/17/22,"$3,700,000 ", USA ,Truckee,CA
+2022,100,440,668,St. Andrews Links (Old Course),The Open Championship,7/14/22,7/17/22,, SCO ,Fife,
+2022,525,450,883,TPC Twin Cities,3M Open,7/21/22,7/24/22,"$7,500,000 ", USA ,Blaine,MN
+2022,524,460,876,Detroit Golf Club,Rocket Mortgage Classic,7/28/22,7/31/22,"$8,400,000 ", USA ,Detroit,MI
+2022,13,470,752,Sedgefield Country Club,Wyndham Championship,8/4/22,8/7/22,"$7,300,000 ", USA ,Greensboro,NC
+2022,27,480,513,TPC Southwind,FedEx St. Jude Championship,8/11/22,8/14/22,"$15,000,000 ", USA ,Memphis,TN
+2022,28,490,901,Wilmington Country Club,BMW Championship,8/18/22,8/21/22,"$15,000,000 ", USA ,Wilmington,DE
+2022,60,500,688,East Lake Golf Club,TOUR Championship,8/25/22,8/28/22,, USA ,Atlanta,GA
+2021,464,10,552,Silverado Resort and Spa North,Safeway Open,9/10/20,9/13/20,"$6,600,000 ", USA ,Napa,CA
+2020,464,10,552,Silverado Resort and Spa North,Safeway Open,9/26/19,9/29/19,"$6,600,000 ", USA ,Napa,CA
+2019,464,10,552,Silverado Resort and Spa North,Safeway Open,10/4/18,10/7/18,"$6,400,000 ", USA ,Napa,CA
+2018,464,10,552,Silverado Resort and Spa North,Safeway Open,10/5/17,10/8/17,"$6,200,000 ", USA ,Napa,CA
+2017,464,10,552,Silverado Resort and Spa North,Safeway Open,10/13/16,10/16/16,"$6,000,000 ", USA ,Napa,CA
+2016,464,10,552,Silverado Resort and Spa North,Frys.com Open,10/15/15,10/18/15,"$6,000,000 ", USA ,Napa,CA
+2015,464,10,552,Silverado Resort and Spa North,Frys.com Open,10/9/14,10/12/14,"$6,000,000 ", USA ,Napa,CA
+2014,464,10,,CordeValle GC,Frys.com Open,10/10/13,10/13/13,"$5,000,000 ",,,
+2012,464,10,,CordeValle GC,Frys.com Open,10/11/12,10/14/12,"$5,000,000 ",,,
+2011,464,10,,CordeValle GC,Frys.com Open,10/6/11,10/9/11,"$5,000,000 ",,,
+2010,464,10,,CordeValle GC,Frys.com Open,10/14/10,10/17/10,"$5,000,000 ",,,
+2009,464,10,,Grayhawk GC (Raptor),Frys.com Open,10/22/09,10/25/09,"$5,000,000 ",,,
+2008,464,10,,Grayhawk GC (Raptor),Frys.com Open,10/23/08,10/26/08,"$5,000,000 ",,,
+2007,464,10,,Grayhawk GC (Raptor),Fry's Electronics Open,10/18/07,10/21/07,"$5,000,000 ",,,
+2020,26,380,,Winged Foot Golf Club,U.S. Open,9/17/20,9/20/20,"$12,500,000 ", USA ,,
+2021,26,380,4,Torrey Pines (South),U.S. Open,6/17/21,6/20/21, $-   , USA ,San Diego,CA
+2019,26,380,5,Pebble Beach Golf Links,U.S. Open,6/13/19,6/16/19,"$12,500,000 ", USA ,,CA
+2018,26,380,,Shinnecock Hills,U.S. Open,6/14/18,6/17/18,"$12,000,000 ", USA ,,
+2017,26,380,,Erin Hills,U.S. Open,6/15/17,6/18/17,"$12,000,000 ", USA ,,
+2016,26,380,,Oakmont CC,U.S. Open,6/16/16,6/19/16,"$10,000,000 ", USA ,,
+2015,26,380,,Chambers Bay GC,U.S. Open,6/18/15,6/21/15,"$10,000,000 ", USA ,Tacoma,WA
+2014,26,380,,Pinehurst Resort (No. 2),U.S. Open,6/12/14,6/15/14,"$9,000,000 ", USA ,,
+2013,26,380,,Merion GC,U.S. Open,6/13/13,6/16/13,"$8,000,000 ", USA ,,
+2012,26,380,,The Olympic Club,U.S. Open,6/14/12,6/17/12,"$8,000,000 ", USA ,,
+2011,26,380,,Congressional CC (Blue),U.S. Open,6/16/11,6/19/11,"$7,500,000 ", USA ,,
+2010,26,380,5,Pebble Beach Golf Links,U.S. Open,6/17/10,6/20/10,"$7,500,000 ", USA ,,
+2009,26,380,,Bethpage State Park (Black),U.S. Open,6/18/09,6/21/09,"$7,500,000 ", USA ,,
+2008,26,380,4,Torrey Pines (South),U.S. Open,6/12/08,6/15/08,"$7,000,000 ", USA ,San Diego,CA
+2007,26,380,,Oakmont CC,U.S. Open,6/14/07,6/17/07,"$7,000,000 ", USA ,,
+2006,26,380,,Winged Foot Golf Club,U.S. Open,6/15/06,6/18/06,"$6,250,000 ", USA ,,
+2005,26,380,,Pinehurst Resort (No. 2),U.S. Open,6/16/05,6/19/05,"$6,250,000 ", USA ,,
+2004,26,380,,Shinnecock Hills,U.S. Open,6/17/04,6/20/04,"$6,250,000 ", USA ,,
+2020,522,250,244,Corales Golf Club,Corales Puntacana Resort & Club Championship,9/24/20,9/27/20,"$4,000,000 ", DOM ,Punta Cana,
+2021,522,250,244,Corales Golf Club,Corales Puntacana Resort & Club Championship,3/25/21,3/28/21,"$3,000,000 ", DOM ,Punta Cana,
+2019,522,250,244,Corales Golf Club,Corales Puntacana Resort & Club Championship,3/28/19,3/31/19,"$3,000,000 ", DOM ,Punta Cana,
+2018,522,250,244,Corales Golf Club,Corales Puntacana Resort & Club Championship,3/22/18,3/25/18,"$3,000,000 ", DOM ,Punta Cana,
+2021,54,30,746,Country Club of Jackson,Sanderson Farms Championship,10/1/20,10/4/20,"$6,600,000 ", USA ,Jackson,MS
+2020,54,30,746,Country Club of Jackson,Sanderson Farms Championship,9/19/19,9/22/19,"$6,600,000 ", USA ,Jackson,MS
+2019,54,30,746,Country Club of Jackson,Sanderson Farms Championship,10/25/18,10/28/18,"$4,400,000 ", USA ,Jackson,MS
+2018,54,30,746,Country Club of Jackson,Sanderson Farms Championship,10/26/17,10/29/17,"$4,300,000 ", USA ,Jackson,MS
+2017,54,30,746,Country Club of Jackson,Sanderson Farms Championship,10/27/16,10/30/16,"$4,200,000 ", USA ,Jackson,MS
+2016,54,30,746,Country Club of Jackson,Sanderson Farms Championship,11/5/15,11/8/15,"$4,100,000 ", USA ,Jackson,MS
+2015,54,30,746,Country Club of Jackson,Sanderson Farms Championship,11/6/14,11/9/14,"$4,000,000 ", USA ,Jackson,MS
+2013,54,30,,Annandale GC,Sanderson Farms Championship,7/18/13,7/21/13,"$3,000,000 ",,,
+2012,54,30,,Annandale GC,True South Classic,7/19/12,7/22/12,"$3,000,000 ",,,
+2011,54,30,,Annandale GC,Viking Classic,7/14/11,7/17/11,"$3,600,000 ",,,
+2010,54,30,,Annandale GC,Viking Classic,9/30/10,10/3/10,"$3,600,000 ",,,
+2008,54,30,,Annandale GC,Viking Classic,9/18/08,9/21/08,"$3,600,000 ",,,
+2007,54,30,,Annandale GC,Viking Classic,9/27/07,9/30/07,"$3,500,000 ",,,
+2006,54,30,,Annandale GC,Southern Farm Bureau Classic,9/28/06,10/1/06,"$3,000,000 ",,,
+2005,54,30,,Annandale GC,Southern Farm Bureau Classic,11/3/05,11/6/05,"$3,000,000 ",,,
+2004,54,30,,Annandale GC,Southern Farm Bureau Classic,9/30/04,10/3/04,"$3,000,000 ",,,
+2021,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,10/8/20,10/11/20,"$7,000,000 ", USA ,Las Vegas,NV
+2020,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,10/3/19,10/6/19,"$7,000,000 ", USA ,Las Vegas,NV
+2019,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,11/1/18,11/4/18,"$7,000,000 ", USA ,Las Vegas,NV
+2018,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,11/2/17,11/5/17,"$6,800,000 ", USA ,Las Vegas,NV
+2017,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,11/3/16,11/6/16,"$6,600,000 ", USA ,Las Vegas,NV
+2016,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,10/22/15,10/25/15,"$6,400,000 ", USA ,Las Vegas,NV
+2015,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,10/16/14,10/19/14,"$6,200,000 ", USA ,Las Vegas,NV
+2014,47,40,538,TPC Summerlin,Shriners Hospitals for Children Open,10/17/13,10/20/13,"$6,000,000 ", USA ,Las Vegas,NV
+2012,47,40,538,TPC Summerlin,Justin Timberlake Shriners Hospitals for Children Open,10/4/12,10/7/12,"$4,500,000 ", USA ,Las Vegas,NV
+2011,47,40,538,TPC Summerlin,Justin Timberlake Shriners Hospitals for Children Open,9/29/11,10/2/11,"$4,400,000 ", USA ,Las Vegas,NV
+2010,47,40,538,TPC Summerlin,Justin Timberlake Shriners Hospitals for Children Open,10/21/10,10/24/10,"$4,300,000 ", USA ,Las Vegas,NV
+2009,47,40,538,TPC Summerlin,Justin Timberlake Shriners Hospitals for Children Open,10/15/09,10/18/09,"$4,200,000 ", USA ,Las Vegas,NV
+2008,47,40,538,TPC Summerlin,Justin Timberlake Shriners Hospitals for Children Open,10/16/08,10/19/08,"$4,100,000 ", USA ,Las Vegas,NV
+2021,521,50,,Shadow Creek Golf Course,THE CJ CUP @ Shadow Creek,10/15/20,10/18/20,"$9,750,000 ", USA ,Las Vegas,NV
+2020,521,50,,Nine Bridges,The CJ Cup @ Nine Bridges,10/17/19,10/20/19,"$9,750,000 ",,,
+2019,521,50,,Nine Bridges,The CJ Cup @ Nine Bridges,10/18/18,10/21/18,"$9,500,000 ",,,
+2018,521,50,,Nine Bridges,The CJ Cup @ Nine Bridges,10/19/17,10/22/17,"$9,250,000 ",,,
+2021,527,60,,Sherwood Country Club,ZOZO CHAMPIONSHIP @ Sherwood,10/22/20,10/25/20,"$8,000,000 ",,,
+2020,527,60,875,Accordia Golf Narashino CC,ZOZO CHAMPIONSHIP,10/24/19,10/27/19,"$9,750,000 ", JPN ,Chiba,
+2021,528,70,765,Port Royal Golf Course,Bermuda Championship,10/29/20,11/1/20,"$4,000,000 ", BER ,Southampton,
+2020,528,70,765,Port Royal Golf Course,Bermuda Championship,10/31/19,11/3/19,"$3,000,000 ", BER ,Southampton,
+2021,20,100,897,Memorial Park Golf Course,Vivint Houston Open,11/5/20,11/8/20,"$7,000,000 ", USA ,Houston,TX
+2020,20,100,,GC of Houston,Houston Open,10/10/19,10/13/19,"$7,500,000 ", USA ,Houston,TX
+2018,20,100,,GC of Houston,Houston Open,3/29/18,4/1/18,"$7,000,000 ", USA ,Houston,TX
+2017,20,100,,GC of Houston,Shell Houston Open,3/30/17,4/2/17,"$7,000,000 ", USA ,Houston,TX
+2016,20,100,,GC of Houston,Shell Houston Open,3/31/16,4/3/16,"$6,800,000 ", USA ,Houston,TX
+2015,20,100,,GC of Houston,Shell Houston Open,4/2/15,4/5/15,"$6,600,000 ", USA ,Houston,TX
+2014,20,100,,GC of Houston,Shell Houston Open,4/3/14,4/6/14,"$6,400,000 ", USA ,Houston,TX
+2013,20,100,,Redstone GC (Tournament),Shell Houston Open,3/28/13,3/31/13,"$6,200,000 ", USA ,Houston,TX
+2012,20,100,,Redstone GC (Tournament),Shell Houston Open,3/29/12,4/1/12,"$6,000,000 ", USA ,Houston,TX
+2011,20,100,,Redstone GC (Tournament),Shell Houston Open,3/31/11,4/3/11,"$5,900,000 ", USA ,Houston,TX
+2010,20,100,,Redstone GC (Tournament),Shell Houston Open,4/1/10,4/4/10,"$5,800,000 ", USA ,Houston,TX
+2009,20,100,,Redstone GC (Tournament),Shell Houston Open,4/2/09,4/5/09,"$5,700,000 ", USA ,Houston,TX
+2008,20,100,,Redstone GC (Tournament),Shell Houston Open,4/3/08,4/6/08,"$5,600,000 ", USA ,Houston,TX
+2007,20,100,,Redstone GC (Tournament),Shell Houston Open,3/29/07,4/1/07,"$5,500,000 ", USA ,Houston,TX
+2021,14,280,14,Augusta National Golf Club,Masters Tournament,4/8/21,4/11/21,"$11,500,000 ", USA ,Augusta,GA
+2020,14,280,14,Augusta National Golf Club,Masters Tournament,11/12/20,11/15/20,"$11,500,000 ", USA ,Augusta,GA
+2019,14,280,14,Augusta National Golf Club,Masters Tournament,4/11/19,4/14/19,"$11,500,000 ", USA ,Augusta,GA
+2018,14,280,14,Augusta National Golf Club,Masters Tournament,4/5/18,4/8/18,"$11,000,000 ", USA ,Augusta,GA
+2017,14,280,14,Augusta National Golf Club,Masters Tournament,4/6/17,4/9/17,"$10,000,000 ", USA ,Augusta,GA
+2016,14,280,14,Augusta National Golf Club,Masters Tournament,4/7/16,4/10/16,"$10,000,000 ", USA ,Augusta,GA
+2015,14,280,14,Augusta National Golf Club,Masters Tournament,4/9/15,4/12/15,"$10,000,000 ", USA ,Augusta,GA
+2014,14,280,14,Augusta National Golf Club,Masters Tournament,4/10/14,4/13/14,"$9,000,000 ", USA ,Augusta,GA
+2013,14,280,14,Augusta National Golf Club,Masters Tournament,4/11/14,4/14/14,"$8,000,000 ", USA ,Augusta,GA
+2012,14,280,14,Augusta National Golf Club,Masters Tournament,4/5/12,4/8/12,"$8,000,000 ", USA ,Augusta,GA
+2011,14,280,14,Augusta National Golf Club,Masters Tournament,4/7/11,4/10/11,"$7,500,000 ", USA ,Augusta,GA
+2010,14,280,14,Augusta National Golf Club,Masters Tournament,4/8/10,4/11/10,"$7,500,000 ", USA ,Augusta,GA
+2009,14,280,14,Augusta National Golf Club,Masters Tournament,4/9/09,4/12/09,"$7,000,000 ", USA ,Augusta,GA
+2008,14,280,14,Augusta National Golf Club,Masters Tournament,4/10/08,4/13/08,"$7,000,000 ", USA ,Augusta,GA
+2007,14,280,14,Augusta National Golf Club,Masters Tournament,4/5/07,4/8/07,"$7,000,000 ", USA ,Augusta,GA
+2006,14,280,14,Augusta National Golf Club,Masters Tournament,4/6/06,4/9/06,"$7,000,000 ", USA ,Augusta,GA
+2005,14,280,14,Augusta National Golf Club,Masters Tournament,4/7/05,4/10/05,"$7,000,000 ", USA ,Augusta,GA
+2004,14,280,14,Augusta National Golf Club,Masters Tournament,4/8/04,4/11/04,"$6,000,000 ", USA ,Augusta,GA
+2021,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/19/20,11/22/20,"$6,600,000 ", USA ,Sea Island,GA
+2020,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/21/19,11/24/19,"$6,600,000 ", USA ,Sea Island,GA
+2019,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/15/18,11/18/18,"$6,400,000 ", USA ,Sea Island,GA
+2018,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/16/17,11/19/17,"$6,200,000 ", USA ,Sea Island,GA
+2017,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/17/16,11/20/16,"$6,000,000 ", USA ,Sea Island,GA
+2016,493,110,776,Sea Island Resort (Seaside),The RSM Classic,11/19/15,11/22/15,"$5,700,000 ", USA ,Sea Island,GA
+2015,493,110,776,Sea Island Resort (Seaside),The McGladrey Classic,10/23/14,10/26/14,"$5,600,000 ", USA ,Sea Island,GA
+2014,493,110,776,Sea Island Resort (Seaside),The McGladrey Classic,11/7/13,11/10/13,"$5,500,000 ", USA ,Sea Island,GA
+2012,493,110,776,Sea Island Resort (Seaside),The McGladrey Classic,10/18/12,10/21/12,"$4,000,000 ", USA ,Sea Island,GA
+2011,493,110,776,Sea Island Resort (Seaside),The McGladrey Classic,10/13/11,10/16/11,"$4,000,000 ", USA ,Sea Island,GA
+2010,493,110,776,Sea Island Resort (Seaside),The McGladrey Classic,10/7/10,10/10/10,"$4,000,000 ", USA ,Sea Island,GA
+2021,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic Presented by UNIFIN,12/3/20,12/6/20,"$7,200,000 ", MEX ,Riviera Maya,
+2020,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic,11/14/19,11/17/19,"$7,200,000 ", MEX ,Riviera Maya,
+2019,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic,11/8/18,11/11/18,"$7,200,000 ", MEX ,Riviera Maya,
+2018,457,90,733,El Camaleon Golf Club,OHL Classic at Mayakoba,11/9/17,11/12/17,"$7,100,000 ", MEX ,Riviera Maya,
+2017,457,90,733,El Camaleon Golf Club,OHL Classic at Mayakoba,11/10/16,11/13/16,"$7,000,010 ", MEX ,Riviera Maya,
+2016,457,90,733,El Camaleon Golf Club,OHL Classic at Mayakoba,11/12/15,11/15/15,"$6,200,000 ", MEX ,Riviera Maya,
+2015,457,90,733,El Camaleon Golf Club,OHL Classic at Mayakoba,11/13/14,11/16/14,"$6,100,000 ", MEX ,Riviera Maya,
+2014,457,90,733,El Camaleon Golf Club,OHL Classic at Mayakoba,11/14/13,11/17/13,"$6,000,000 ", MEX ,Riviera Maya,
+2012,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic,2/23/12,2/26/12,"$3,700,000 ", MEX ,Riviera Maya,
+2011,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic at Riviera Maya-Cancun,2/24/11,2/27/11,"$3,700,000 ", MEX ,Riviera Maya,
+2010,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic at Riviera Maya-Cancun,2/18/10,2/21/10,"$3,600,000 ", MEX ,Riviera Maya,
+2009,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic at Riviera Maya-Cancun,2/27/09,3/1/09,"$3,600,000 ", MEX ,Riviera Maya,
+2008,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic at Riviera Maya-Cancun,2/21/08,2/24/08,"$3,500,000 ", MEX ,Riviera Maya,
+2007,457,90,733,El Camaleon Golf Club,Mayakoba Golf Classic at Riviera Maya-Cancun,2/22/07,2/25/07,"$3,500,000 ", MEX ,Riviera Maya,
+2021,58,120,678,Tiburón Golf Course,QBE Shootout,12/10/20,12/13/20,"$3,600,000 ", USA ,Naples,FL
+2020,58,120,678,Tiburón Golf Course,QBE Shootout,12/12/19,12/15/19,"$3,500,000 ", USA ,Naples,FL
+2019,58,120,678,Tiburón Golf Course,QBE Shootout,12/6/18,12/9/18,"$3,400,000 ", USA ,Naples,FL
+2018,58,120,678,Tiburón Golf Course,QBE Shootout,12/7/17,12/10/17,"$3,300,000 ", USA ,Naples,FL
+2017,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/7/16,12/10/16,"$3,100,000 ", USA ,Naples,FL
+2016,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/9/15,12/12/15,"$3,100,000 ", USA ,Naples,FL
+2015,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/10/14,12/13/14,"$3,100,000 ", USA ,Naples,FL
+2014,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/12/13,12/15/13,"$3,100,000 ", USA ,Naples,FL
+2012,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/6/12,12/9/12,"$3,000,000 ", USA ,Naples,FL
+2011,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,12/8/11,12/11/11,"$3,000,000 ", USA ,Naples,FL
+2010,58,120,678,Tiburón Golf Course,The Shark Shootout,12/9/10,12/12/10,"$3,000,000 ", USA ,Naples,FL
+2009,58,120,678,Tiburón Golf Course,The Shark Shootout,12/10/09,12/13/09,"$3,000,000 ", USA ,Naples,FL
+2008,58,120,678,Tiburón Golf Course,Merrill Lynch Shootout,12/11/08,12/14/08,"$2,900,000 ", USA ,Naples,FL
+2007,58,120,678,Tiburón Golf Course,Merrill Lynch Shootout,12/6/07,12/9/07,"$2,800,000 ", USA ,Naples,FL
+2006,58,120,678,Tiburón Golf Course,Merrill Lynch Shootout,11/9/06,11/12/06,"$2,750,000 ", USA ,Naples,FL
+2005,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,11/10/05,11/13/05,"$2,600,000 ", USA ,Naples,FL
+2004,58,120,678,Tiburón Golf Course,Franklin Templeton Shootout,11/11/04,11/14/04,"$2,500,000 ", USA ,Naples,FL
+2021,16,130,656,Plantation Course at Kapalua,Sentry Tournament of Champions,1/7/21,1/10/21,"$6,700,000 ", USA ,Maui,HI
+2020,16,130,656,Plantation Course at Kapalua,Sentry Tournament of Champions,1/2/20,1/5/20,"$6,700,000 ", USA ,Maui,HI
+2019,16,130,656,Plantation Course at Kapalua,Sentry Tournament of Champions,1/3/19,1/6/19,"$6,500,000 ", USA ,Maui,HI
+2018,16,130,656,Plantation Course at Kapalua,Sentry Tournament of Champions,1/4/18,1/7/18,"$6,300,000 ", USA ,Maui,HI
+2017,16,130,656,Plantation Course at Kapalua,SBS Tournament of Champions,1/5/17,1/8/17,"$6,100,000 ", USA ,Maui,HI
+2016,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/7/16,1/10/16,"$5,900,000 ", USA ,Maui,HI
+2015,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/9/15,1/12/15,"$5,700,000 ", USA ,Maui,HI
+2014,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/3/14,1/6/14,"$5,700,000 ", USA ,Maui,HI
+2013,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/4/13,1/7/13,"$5,700,000 ", USA ,Maui,HI
+2012,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/6/12,1/9/12,"$5,600,000 ", USA ,Maui,HI
+2011,16,130,656,Plantation Course at Kapalua,Hyundai Tournament of Champions,1/6/11,1/9/11,"$5,600,000 ", USA ,Maui,HI
+2010,16,130,656,Plantation Course at Kapalua,SBS Championship,1/7/10,1/10/10,"$5,600,000 ", USA ,Maui,HI
+2009,16,130,656,Plantation Course at Kapalua,Mercedes-Benz Championship,1/8/09,1/11/09,"$5,600,000 ", USA ,Maui,HI
+2008,16,130,656,Plantation Course at Kapalua,Mercedes-Benz Championship,1/3/08,1/6/08,"$5,500,000 ", USA ,Maui,HI
+2007,16,130,656,Plantation Course at Kapalua,Mercedes-Benz Championship,1/4/07,1/7/07,"$5,500,000 ", USA ,Maui,HI
+2006,16,130,656,Plantation Course at Kapalua,Mercedes Championship,1/5/06,1/8/06,"$5,400,000 ", USA ,Maui,HI
+2005,16,130,656,Plantation Course at Kapalua,Mercedes Championship,1/6/05,1/9/05,"$5,300,000 ", USA ,Maui,HI
+2004,16,130,656,Plantation Course at Kapalua,Mercedes Championship,1/8/04,1/11/04,"$5,300,000 ", USA ,Maui,HI
+2021,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/14/21,1/17/21,"$6,600,000 ", USA ,Honolulu,HI
+2020,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/9/20,1/12/20,"$6,600,000 ", USA ,Honolulu,HI
+2019,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/10/19,1/13/19,"$6,400,000 ", USA ,Honolulu,HI
+2018,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/11/18,1/14/18,"$6,200,000 ", USA ,Honolulu,HI
+2017,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/12/17,1/15/17,"$6,000,000 ", USA ,Honolulu,HI
+2016,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/14/16,1/17/16,"$5,800,000 ", USA ,Honolulu,HI
+2015,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/15/15,1/18/15,"$5,600,000 ", USA ,Honolulu,HI
+2014,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/9/14,1/12/14,"$5,600,000 ", USA ,Honolulu,HI
+2013,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/10/13,1/13/13,"$5,600,000 ", USA ,Honolulu,HI
+2012,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/12/12,1/15/12,"$5,500,000 ", USA ,Honolulu,HI
+2011,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/13/11,1/16/11,"$5,500,000 ", USA ,Honolulu,HI
+2010,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/14/10,1/17/10,"$5,500,000 ", USA ,Honolulu,HI
+2009,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/15/09,1/18/09,"$5,400,000 ", USA ,Honolulu,HI
+2008,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/10/08,1/13/08,"$5,300,000 ", USA ,Honolulu,HI
+2007,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/11/07,1/14/07,"$5,200,000 ", USA ,Honolulu,HI
+2006,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/12/06,1/15/06,"$5,100,000 ", USA ,Honolulu,HI
+2005,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/13/05,1/16/05,"$4,800,000 ", USA ,Honolulu,HI
+2004,6,140,6,Waialae Country Club,Sony Open in Hawaii,1/15/04,1/18/04,"$4,800,000 ", USA ,Honolulu,HI
+2021,2,150,704,Pete Dye Stadium Course,The American Express,1/21/21,1/24/21,"$6,700,000 ", USA ,La Quinta,CA
+2020,2,150,704,Pete Dye Stadium Course,The American Express,1/16/20,1/19/20,"$6,700,000 ", USA ,La Quinta,CA
+2019,2,150,704,Pete Dye Stadium Course,Desert Classic,1/17/19,1/20/19,"$5,900,000 ", USA ,La Quinta,CA
+2018,2,150,704,Pete Dye Stadium Course,CareerBuilder Challenge,1/18/18,1/21/18,"$5,900,000 ", USA ,La Quinta,CA
+2017,2,150,704,Pete Dye Stadium Course,CareerBuilder Challenge,1/19/17,1/22/17,"$5,800,000 ", USA ,La Quinta,CA
+2016,2,150,704,Pete Dye Stadium Course,CareerBuilder Challenge in partnership with the Clinton Foundation,1/21/16,1/24/16,"$5,800,000 ", USA ,La Quinta,CA
+2015,2,150,,PGA West (Palmer),Humana Challenge in partnership with the Clinton Foundation,1/22/15,1/25/15,"$5,700,000 ", USA ,La Quinta,CA
+2014,2,150,,PGA West (Palmer),Humana Challenge in partnership with the Clinton Foundation,1/16/14,1/19/14,"$5,700,000 ", USA ,La Quinta,CA
+2013,2,150,,PGA West (Palmer),Humana Challenge in partnership with the Clinton Foundation,1/17/13,1/20/13,"$5,600,000 ", USA ,La Quinta,CA
+2012,2,150,,PGA West (Palmer),Humana Challenge in partnership with the Clinton Foundation,1/19/12,1/22/12,"$5,600,000 ", USA ,La Quinta,CA
+2011,2,150,,PGA West (Palmer),Bob Hope Classic,1/20/11,1/23/11,"$5,000,000 ", USA ,La Quinta,CA
+2010,2,150,,PGA West (Palmer),Bob Hope Classic,1/21/10,1/24/10,"$5,000,000 ", USA ,La Quinta,CA
+2009,2,150,,PGA West (Palmer),The 50th Bob Hope Classic hosted by Arnold Palmer,1/22/09,1/25/09,"$5,100,000 ", USA ,La Quinta,CA
+2008,2,150,,PGA West (Palmer),The 50th Bob Hope Classic hosted by Arnold Palmer,1/22/09,1/25/09,"$5,100,000 ", USA ,La Quinta,CA
+2007,2,150,,PGA West (Palmer),Bob Hope Chrysler Classic,1/18/07,1/21/07,"$5,000,000 ", USA ,La Quinta,CA
+2006,2,150,,PGA West (Palmer),Bob Hope Chrysler Classic,1/19/06,1/22/06,"$5,000,000 ", USA ,La Quinta,CA
+2005,2,150,,PGA West (Palmer),Bob Hope Chrysler Classic,1/27/05,1/30/05,"$4,700,000 ", USA ,La Quinta,CA
+2004,2,150,,PGA West (Palmer),Bob Hope Chrysler Classic,1/22/04,1/25/04,"$4,500,000 ", USA ,La Quinta,CA
+2021,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/28/21,1/31/21,"$7,500,000 ", USA ,San Diego,CA
+2020,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/23/20,1/26/20,"$7,500,000 ", USA ,San Diego,CA
+2019,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/24/19,1/27/19,"$7,100,000 ", USA ,San Diego,CA
+2018,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/25/18,1/28/18,"$6,900,000 ", USA ,San Diego,CA
+2017,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/26/17,1/29/17,"$6,700,000 ", USA ,San Diego,CA
+2016,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/28/16,1/31/16,"$6,500,000 ", USA ,San Diego,CA
+2015,4,160,4,Torrey Pines (South),Farmers Insurance Open,2/5/15,2/8/15,"$6,300,000 ", USA ,San Diego,CA
+2014,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/23/14,1/26/14,"$6,100,000 ", USA ,San Diego,CA
+2013,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/24/13,1/27/13,"$6,100,000 ", USA ,San Diego,CA
+2012,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/26/12,1/29/12,"$6,000,000 ", USA ,San Diego,CA
+2011,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/27/11,1/30/11,"$5,800,000 ", USA ,San Diego,CA
+2010,4,160,4,Torrey Pines (South),Farmers Insurance Open,1/28/10,1/31/10,"$5,300,000 ", USA ,San Diego,CA
+2009,4,160,4,Torrey Pines (South),Buick Invitational,2/5/09,2/8/09,"$5,300,000 ", USA ,San Diego,CA
+2008,4,160,4,Torrey Pines (South),Buick Invitational,1/24/08,1/27/08,"$5,200,000 ", USA ,San Diego,CA
+2007,4,160,4,Torrey Pines (South),Buick Invitational,1/25/07,1/28/07,"$5,200,000 ", USA ,San Diego,CA
+2006,4,160,4,Torrey Pines (South),Buick Invitational,1/26/06,1/29/06,"$5,100,000 ", USA ,San Diego,CA
+2005,4,160,4,Torrey Pines (South),Buick Invitational,1/20/05,1/23/05,"$4,800,000 ", USA ,San Diego,CA
+2004,4,160,4,Torrey Pines (South),Buick Invitational,2/12/04,2/15/04,"$4,800,000 ", USA ,San Diego,CA
+2021,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/4/21,2/7/21,"$7,300,000 ", USA ,Scottsdale,AZ
+2020,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,1/30/20,2/2/20,"$7,300,000 ", USA ,Scottsdale,AZ
+2019,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,1/31/19,2/3/19,"$7,100,000 ", USA ,Scottsdale,AZ
+2018,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/1/18,2/4/18,"$6,900,000 ", USA ,Scottsdale,AZ
+2017,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/2/17,2/5/17,"$6,700,000 ", USA ,Scottsdale,AZ
+2016,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/4/16,2/7/16,"$6,500,000 ", USA ,Scottsdale,AZ
+2015,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,1/29/15,2/1/15,"$6,300,000 ", USA ,Scottsdale,AZ
+2014,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,1/30/14,2/2/14,"$6,200,000 ", USA ,Scottsdale,AZ
+2013,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,1/31/13,2/3/13,"$6,200,000 ", USA ,Scottsdale,AZ
+2012,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/2/12,2/5/12,"$6,100,000 ", USA ,Scottsdale,AZ
+2011,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/3/11,2/6/11,"$6,100,000 ", USA ,Scottsdale,AZ
+2010,3,180,510,TPC Scottsdale,Waste Management Phoenix Open,2/25/10,2/28/10,"$6,000,000 ", USA ,Scottsdale,AZ
+2009,3,180,510,TPC Scottsdale,FBR Open,1/29/09,2/1/09,"$6,000,000 ", USA ,Scottsdale,AZ
+2008,3,180,510,TPC Scottsdale,FBR Open,1/31/08,2/3/08,"$6,000,000 ", USA ,Scottsdale,AZ
+2007,3,180,510,TPC Scottsdale,FBR Open,2/1/07,2/4/07,"$6,000,000 ", USA ,Scottsdale,AZ
+2006,3,180,510,TPC Scottsdale,FBR Open,2/2/06,2/5/06,"$5,200,000 ", USA ,Scottsdale,AZ
+2005,3,180,510,TPC Scottsdale,FBR Open,2/3/05,2/6/05,"$5,200,000 ", USA ,Scottsdale,AZ
+2004,3,180,510,TPC Scottsdale,FBR Open,1/29/04,2/1/04,"$5,200,000 ", USA ,Scottsdale,AZ
+2021,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/11/21,2/14/21,"$7,800,000 ", USA ,Pebble Beach,CA
+2020,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/6/20,2/9/20,"$7,800,000 ", USA ,Pebble Beach,CA
+2019,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/7/19,2/10/19,"$7,600,000 ", USA ,Pebble Beach,CA
+2018,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/8/18,2/11/18,"$7,400,000 ", USA ,Pebble Beach,CA
+2017,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/9/17,2/12/17,"$7,200,000 ", USA ,Pebble Beach,CA
+2016,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach Pro-Am,2/11/16,2/14/16,"$7,000,000 ", USA ,Pebble Beach,CA
+2015,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/12/15,2/15/15,"$6,800,000 ", USA ,Pebble Beach,CA
+2014,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/6/14,2/9/14,"$6,600,000 ", USA ,Pebble Beach,CA
+2013,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/7/13,2/10/13,"$6,500,000 ", USA ,Pebble Beach,CA
+2012,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/9/12,2/12/12,"$6,400,000 ", USA ,Pebble Beach,CA
+2011,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/10/11,2/13/11,"$6,300,000 ", USA ,Pebble Beach,CA
+2010,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/11/10,2/14/10,"$6,200,000 ", USA ,Pebble Beach,CA
+2009,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/12/09,2/15/09,"$6,100,000 ", USA ,Pebble Beach,CA
+2008,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/7/08,2/10/08,"$6,000,000 ", USA ,Pebble Beach,CA
+2007,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/8/07,2/11/07,"$5,500,000 ", USA ,Pebble Beach,CA
+2006,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/9/06,2/12/06,"$5,400,000 ", USA ,Pebble Beach,CA
+2005,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/10/05,2/13/05,"$5,300,000 ", USA ,Pebble Beach,CA
+2004,5,170,5,Pebble Beach Golf Links,AT&T Pebble Beach National Pro-Am,2/5/04,2/8/04,"$5,300,000 ", USA ,Pebble Beach,CA
+2021,7,190,500,The Riviera Country Club,The Genesis Invitational,2/18/21,2/21/21,"$9,300,000 ", USA ,Pacific Palisades,CA
+2020,7,190,500,The Riviera Country Club,The Genesis Invitational,2/13/20,2/16/20,"$9,300,000 ", USA ,Pacific Palisades,CA
+2019,7,190,500,The Riviera Country Club,Genesis Open,2/14/19,2/17/19,"$7,400,000 ", USA ,Pacific Palisades,CA
+2018,7,190,500,The Riviera Country Club,Genesis Open,2/15/18,2/18/18,"$7,200,000 ", USA ,Pacific Palisades,CA
+2017,7,190,500,The Riviera Country Club,Genesis Open,2/16/17,2/19/17,"$7,000,000 ", USA ,Pacific Palisades,CA
+2016,7,190,500,The Riviera Country Club,Northern Trust Open,2/18/16,2/21/16,"$6,800,000 ", USA ,Pacific Palisades,CA
+2015,7,190,500,The Riviera Country Club,Northern Trust Open,2/19/15,2/22/15,"$6,700,000 ", USA ,Pacific Palisades,CA
+2014,7,190,500,The Riviera Country Club,Northern Trust Open,2/13/14,2/16/14,"$6,700,000 ", USA ,Pacific Palisades,CA
+2013,7,190,500,The Riviera Country Club,Northern Trust Open,2/14/13,2/17/13,"$6,600,000 ", USA ,Pacific Palisades,CA
+2012,7,190,500,The Riviera Country Club,Northern Trust Open,2/16/12,2/19/12,"$6,600,000 ", USA ,Pacific Palisades,CA
+2011,7,190,500,The Riviera Country Club,Northern Trust Open,2/17/11,2/20/11,"$6,500,000 ", USA ,Pacific Palisades,CA
+2010,7,190,500,The Riviera Country Club,Northern Trust Open,2/4/10,2/7/10,"$6,400,000 ", USA ,Pacific Palisades,CA
+2009,7,190,500,The Riviera Country Club,Northern Trust Open,2/19/09,2/22/09,"$6,300,000 ", USA ,Pacific Palisades,CA
+2008,7,190,500,The Riviera Country Club,Northern Trust Open,2/14/08,2/17/08,"$6,200,000 ", USA ,Pacific Palisades,CA
+2007,7,190,500,The Riviera Country Club,Nissan Open,2/15/07,2/18/07,"$5,200,000 ", USA ,Pacific Palisades,CA
+2006,7,190,500,The Riviera Country Club,Nissan Open,2/16/06,2/19/06,"$5,100,000 ", USA ,Pacific Palisades,CA
+2005,7,190,500,The Riviera Country Club,Nissan Open,2/17/05,2/20/05,"$4,800,000 ", USA ,Pacific Palisades,CA
+2004,7,190,500,The Riviera Country Club,Nissan Open,2/19/04,2/22/04,"$4,800,000 ", USA ,Pacific Palisades,CA
+2021,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,2/25/21,2/28/21,"$3,000,000 ", PUR ,Rio Grande,
+2020,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,2/20/20,2/23/20,"$3,000,000 ", PUR ,Rio Grande,
+2019,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,2/21/19,2/24/19,"$3,000,000 ", PUR ,Rio Grande,
+2017,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,3/23/17,3/26/17,"$3,000,000 ", PUR ,Rio Grande,
+2016,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,3/24/16,3/27/16,"$3,000,000 ", PUR ,Rio Grande,
+2015,483,210,742,Grand Reserve Golf Club,Puerto Rico Open,3/5/15,3/8/15,"$3,000,000 ", PUR ,Rio Grande,
+2014,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by seepuertorico.com,3/6/14,3/9/14,"$3,500,000 ", PUR ,Rio Grande,
+2013,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by seepuertorico.com,3/7/13,3/10/13,"$3,500,000 ", PUR ,Rio Grande,
+2012,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by seepuertorico.com,3/8/12,3/11/12,"$3,500,000 ", PUR ,Rio Grande,
+2011,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by seepuertorico.com,3/10/11,3/13/11,"$3,500,000 ", PUR ,Rio Grande,
+2010,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by Banco Popular,3/11/10,3/14/10,"$3,500,000 ", PUR ,Rio Grande,
+2009,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by Banco Popular,3/12/09,3/15/09,"$3,500,000 ", PUR ,Rio Grande,
+2008,483,210,742,Grand Reserve Golf Club,Puerto Rico Open presented by Banco Popular,3/20/08,3/23/08,"$3,500,000 ", PUR ,Rio Grande,
+2021,,,,The Concession Golf Club,World Golf Championships-Workday Championship at The Concession,2/25/21,2/28/21,"$10,500,000 ",,,
+2020,,,,Club de Golf Chapultepec,World Golf Championships-Mexico Championship,2/20/20,2/23/20,"$10,500,000 ",,,
+2020,,,,Club de Golf Chapultepec,World Golf Championships-Mexico Championship,2/20/20,2/23/20,"$10,500,000 ",,,
+2019,,,,Club de Golf Chapultepec,World Golf Championships-Mexico Championship,2/21/19,2/24/19,"$10,250,000 ",,,
+2018,,,,Club de Golf Chapultepec,World Golf Championships-Mexico Championship,3/1/18,3/4/18,"$10,000,000 ",,,
+2017,,,,Club de Golf Chapultepec,World Golf Championships-Mexico Championship,3/2/17,3/5/17,"$9,750,000 ",,,
+2016,,,,Trump National Doral,World Golf Championships-Cadillac Championship,3/3/16,3/6/16,"$9,500,000 ",,,
+2015,,,,Trump National Doral,World Golf Championships-Cadillac Championship,3/5/15,3/8/15,"$9,250,000 ",,,
+2014,,,,Trump National Doral,World Golf Championships-Cadillac Championship,3/6/14,3/9/14,"$9,000,000 ",,,
+2013,,,,TPC Blue Monster at Doral,World Golf Championships-Cadillac Championship,3/7/13,3/10/13,"$8,750,000 ",,,
+2012,,,,TPC Blue Monster at Doral,World Golf Championships-Cadillac Championship,3/8/12,3/11/12,"$8,500,000 ",,,
+2011,,,,TPC Blue Monster at Doral,World Golf Championships-Cadillac Championship,3/10/11,3/13/11,"$8,500,000 ",,,
+2010,,,,TPC Blue Monster at Doral,World Golf Championships-CA Championship,3/11/10,3/14/10,"$8,500,000 ",,,
+2009,,,,Doral Golf Resort and Spa,World Golf Championships-CA Championship,3/12/09,3/15/09,"$8,500,000 ",,,
+2008,,,,Doral Golf Resort and Spa,World Golf Championships-CA Championship,3/20/08,3/23/08,"$8,000,000 ",,,
+2007,,,,Doral Golf Resort and Spa,World Golf Championships-CA Championship,3/22/07,3/25/07,"$8,000,000 ",,,
+2006,,,,The Grove,World Golf Championships-American Express Championship,9/28/06,10/1/06,"$7,500,000 ",,,
+2005,,,,Harding Park GC,World Golf Championships-American Express Championship,10/6/05,10/9/05,"$7,500,000 ",,,
+2004,,,,Mount Juliet,World Golf Championships-American Express Championship,9/30/04,10/3/04,"$7,000,000 ",,,
+2021,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/4/21,3/7/21,"$9,300,000 ", USA ,Orlando,FL
+2020,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/5/20,3/8/20,"$9,300,000 ", USA ,Orlando,FL
+2019,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/7/19,3/10/19,"$9,100,000 ", USA ,Orlando,FL
+2018,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/15/18,3/18/18,"$8,900,000 ", USA ,Orlando,FL
+2017,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/16/17,3/19/17,"$8,700,000 ", USA ,Orlando,FL
+2016,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/17/16,3/20/16,"$6,300,000 ", USA ,Orlando,FL
+2015,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/19/15,3/22/15,"$6,300,000 ", USA ,Orlando,FL
+2014,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/20/14,3/23/14,"$6,200,000 ", USA ,Orlando,FL
+2013,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/21/13,3/24/13,"$6,200,000 ", USA ,Orlando,FL
+2012,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/22/12,3/25/12,"$6,000,000 ", USA ,Orlando,FL
+2011,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/24/11,3/27/11,"$6,000,000 ", USA ,Orlando,FL
+2010,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/25/10,3/28/10,"$6,000,000 ", USA ,Orlando,FL
+2009,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/26/09,3/29/09,"$6,000,000 ", USA ,Orlando,FL
+2008,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/13/08,3/16/08,"$5,800,000 ", USA ,Orlando,FL
+2007,9,220,9,Bay Hill Club & Lodge,Arnold Palmer Invitational presented by Mastercard,3/15/07,3/18/07,"$5,500,000 ", USA ,Orlando,FL
+2006,9,220,9,Bay Hill Club & Lodge,Bay Hill Invitational Presented by MasterCard,3/16/06,3/19/06,"$5,500,000 ", USA ,Orlando,FL
+2005,9,220,9,Bay Hill Club & Lodge,Bay Hill Invitational Presented by MasterCard,3/17/05,3/20/05,"$5,000,000 ", USA ,Orlando,FL
+2004,9,220,9,Bay Hill Club & Lodge,Bay Hill Invitational Presented by MasterCard,3/18/04,3/21/04,"$5,000,000 ", USA ,Orlando,FL
+2021,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/11/21,3/14/21,"$15,000,000 ", USA ,Ponte Vedra Beach,FL
+2019,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/14/19,3/17/19,"$12,500,000 ", USA ,Ponte Vedra Beach,FL
+2018,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/10/18,5/13/18,"$11,000,000 ", USA ,Ponte Vedra Beach,FL
+2017,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/11/17,5/14/17,"$10,500,000 ", USA ,Ponte Vedra Beach,FL
+2016,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/12/16,5/15/16,"$10,500,000 ", USA ,Ponte Vedra Beach,FL
+2015,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/7/15,5/10/15,"$10,000,000 ", USA ,Ponte Vedra Beach,FL
+2014,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/8/14,5/11/14,"$10,000,000 ", USA ,Ponte Vedra Beach,FL
+2013,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/9/13,5/12/13,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2012,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/10/12,5/13/12,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2011,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/12/11,5/15/11,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2010,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/6/10,5/9/10,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2009,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/7/09,5/10/09,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2008,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/8/08,5/11/08,"$9,500,000 ", USA ,Ponte Vedra Beach,FL
+2007,11,230,11,TPC Sawgrass,THE PLAYERS Championship,5/10/07,5/13/07,"$9,000,000 ", USA ,Ponte Vedra Beach,FL
+2006,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/23/06,3/26/06,"$8,000,000 ", USA ,Ponte Vedra Beach,FL
+2005,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/24/05,3/27/05,"$8,000,000 ", USA ,Ponte Vedra Beach,FL
+2004,11,230,11,TPC Sawgrass,THE PLAYERS Championship,3/25/04,3/28/04,"$8,000,000 ", USA ,Ponte Vedra Beach,FL
+2021,10,200,734,PGA National (Champion),The Honda Classic,3/18/21,3/21/21,"$7,000,000 ", USA ,Palm Beach Gardens,FL
+2020,10,200,734,PGA National (Champion),The Honda Classic,3/26/20,3/1/20,"$7,000,000 ", USA ,Palm Beach Gardens,FL
+2019,10,200,734,PGA National (Champion),The Honda Classic,2/28/20,3/3/19,"$6,800,000 ", USA ,Palm Beach Gardens,FL
+2018,10,200,734,PGA National (Champion),The Honda Classic,2/22/18,2/25/18,"$6,600,000 ", USA ,Palm Beach Gardens,FL
+2017,10,200,734,PGA National (Champion),The Honda Classic,2/23/17,2/26/17,"$6,400,000 ", USA ,Palm Beach Gardens,FL
+2016,10,200,734,PGA National (Champion),The Honda Classic,2/25/16,2/28/16,"$6,100,000 ", USA ,Palm Beach Gardens,FL
+2015,10,200,734,PGA National (Champion),The Honda Classic,2/26/15,3/1/15,"$6,100,000 ", USA ,Palm Beach Gardens,FL
+2014,10,200,734,PGA National (Champion),The Honda Classic,2/27/14,3/2/14,"$6,000,000 ", USA ,Palm Beach Gardens,FL
+2013,10,200,734,PGA National (Champion),The Honda Classic,2/28/13,3/3/13,"$6,000,000 ", USA ,Palm Beach Gardens,FL
+2012,10,200,734,PGA National (Champion),The Honda Classic,3/1/12,3/4/12,"$5,700,000 ", USA ,Palm Beach Gardens,FL
+2011,10,200,734,PGA National (Champion),The Honda Classic,3/3/11,3/6/11,"$5,700,000 ", USA ,Palm Beach Gardens,FL
+2010,10,200,734,PGA National (Champion),The Honda Classic,3/4/10,3/7/10,"$5,600,000 ", USA ,Palm Beach Gardens,FL
+2009,10,200,734,PGA National (Champion),The Honda Classic,3/5/09,3/8/09,"$5,600,000 ", USA ,Palm Beach Gardens,FL
+2008,10,200,734,PGA National (Champion),The Honda Classic,2/27/09,3/2/08,"$5,500,000 ", USA ,Palm Beach Gardens,FL
+2007,10,200,734,PGA National (Champion),The Honda Classic,3/1/07,3/4/07,"$5,500,000 ", USA ,Palm Beach Gardens,FL
+2006,10,200,,CC at Mirasol (Sunset),The Honda Classic,3/9/06,3/12/06,"$5,500,000 ",,,
+2005,10,200,,CC at Mirasol (Sunset),The Honda Classic,3/10/05,3/13/05,"$5,500,000 ",,,
+2004,10,200,,CC at Mirasol (Sunset),The Honda Classic,3/11/04,3/14/04,"$5,500,000 ",,,
+2021,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/25/21,3/28/21,"$10,500,000 ", USA ,Austin,TX
+2019,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/28/19,3/31/19,"$10,250,000 ", USA ,Austin,TX
+2018,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/22/18,3/25/18,"$10,000,000 ", USA ,Austin,TX
+2017,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/23/17,3/26/17,"$9,750,000 ", USA ,Austin,TX
+2016,470,260,185,Austin Country Club,World Golf Championships-Dell Technologies Match Play,3/24/16,3/27/16,"$9,500,000 ", USA ,Austin,TX
+2015,470,260,,TPC Harding Park,World Golf Championships-Cadillac Match Play,4/30/15,5/3/15,"$9,250,000 ",,,
+2014,470,260,,The GC at Dove Mountain,World Golf Championships-Accenture Match Play Championship,2/20/14,2/23/14,"$9,000,000 ",,,
+2013,470,260,,The GC at Dove Mountain,World Golf Championships-Accenture Match Play Championship,2/21/13,2/24/13,"$8,750,000 ",,,
+2012,470,260,,"Ritz-Carlton GC, Dove Mountain",World Golf Championships-Accenture Match Play Championship,2/23/12,2/26/12,"$8,500,000 ",,,
+2011,470,260,,"Ritz-Carlton GC, Dove Mountain",World Golf Championships-Accenture Match Play Championship,2/24/11,2/27/11,"$8,500,000 ",,,
+2010,470,260,,"Ritz-Carlton GC, Dove Mountain",World Golf Championships-Accenture Match Play Championship,2/18/10,2/21/10,"$8,500,000 ",,,
+2009,470,260,,"Ritz-Carlton GC, Dove Mountain",World Golf Championships-Accenture Match Play Championship,2/27/09,3/1/09,"$8,500,000 ",,,
+2008,470,260,,The Gallery at Dove Mountain,World Golf Championships-Accenture Match Play Championship,2/21/08,2/24/08,"$8,000,000 ",,,
+2007,470,260,,The Gallery at Dove Mountain,World Golf Championships-Accenture Match Play Championship,2/22/07,2/25/07,"$8,000,000 ",,,
+2006,470,260,,La Costa Resort and Spa,World Golf Championships-Accenture Match Play Championship,2/23/06,2/26/06,"$7,500,000 ",,,
+2005,470,260,,La Costa Resort and Spa,World Golf Championships-Accenture Match Play Championship,2/24/05,2/27/05,"$7,500,000 ",,,
+2004,470,260,,La Costa Resort and Spa,World Golf Championships-Accenture Match Play Championship,2/26/04,2/29/04,"$7,000,000 ",,,
+2021,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/1/21,4/4/21,"$7,700,000 ", USA ,San Antonio,TX
+2019,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/4/19,4/7/19,"$7,500,000 ", USA ,San Antonio,TX
+2018,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/19/18,4/22/18,"$6,200,000 ", USA ,San Antonio,TX
+2017,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/20/17,4/23/17,"$6,200,000 ", USA ,San Antonio,TX
+2016,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/21/16,4/24/16,"$6,200,000 ", USA ,San Antonio,TX
+2015,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,3/26/15,3/29/15,"$6,200,000 ", USA ,San Antonio,TX
+2014,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,3/27/14,3/30/14,"$6,200,000 ", USA ,San Antonio,TX
+2013,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/4/13,4/7/13,"$6,200,000 ", USA ,San Antonio,TX
+2012,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/19/12,4/22/12,"$6,200,000 ", USA ,San Antonio,TX
+2011,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,4/14/11,4/17/11,"$6,200,000 ", USA ,San Antonio,TX
+2010,41,270,770,TPC San Antonio (Oaks Course),Valero Texas Open,5/13/10,5/16/10,"$6,100,000 ", USA ,San Antonio,TX
+2009,41,270,,LaCantera GC (Resort),Valero Texas Open,5/14/09,5/17/09,"$6,100,000 ",,,
+2008,41,270,,LaCantera GC (Resort),Valero Texas Open,10/9/08,10/12/08,"$4,500,000 ",,,
+2007,41,270,,LaCantera GC (Resort),Valero Texas Open,10/4/07,10/7/07,"$4,500,000 ",,,
+2006,41,270,,LaCantera GC (Resort),Valero Texas Open,9/21/06,9/24/06,"$4,000,000 ",,,
+2005,41,270,,LaCantera GC (Resort),Valero Texas Open,9/22/05,9/25/05,"$3,500,000 ",,,
+2004,41,270,,LaCantera GC (Resort),Valero Texas Open,9/16/04,9/19/04,"$3,500,000 ",,,
+2021,12,290,12,Harbour Town Golf Links,RBC Heritage,4/15/21,4/18/21,"$7,100,000 ", USA ,Hilton Head,SC
+2020,12,290,12,Harbour Town Golf Links,RBC Heritage,6/18/20,6/21/20,"$7,100,000 ", USA ,Hilton Head,SC
+2019,12,290,12,Harbour Town Golf Links,RBC Heritage,4/18/19,4/21/19,"$6,900,000 ", USA ,Hilton Head,SC
+2018,12,290,12,Harbour Town Golf Links,RBC Heritage,4/12/19,4/15/18,"$6,700,000 ", USA ,Hilton Head,SC
+2017,12,290,12,Harbour Town Golf Links,RBC Heritage,4/13/17,4/16/17,"$6,500,000 ", USA ,Hilton Head,SC
+2016,12,290,12,Harbour Town Golf Links,RBC Heritage,4/14/16,4/17/16,"$5,900,000 ", USA ,Hilton Head,SC
+2015,12,290,12,Harbour Town Golf Links,RBC Heritage,4/16/15,4/19/15,"$5,900,000 ", USA ,Hilton Head,SC
+2014,12,290,12,Harbour Town Golf Links,RBC Heritage,4/17/14,4/20/14,"$5,800,000 ", USA ,Hilton Head,SC
+2013,12,290,12,Harbour Town Golf Links,RBC Heritage,4/18/13,4/21/13,"$5,800,000 ", USA ,Hilton Head,SC
+2012,12,290,12,Harbour Town Golf Links,RBC Heritage,4/12/12,4/15/12,"$5,700,000 ", USA ,Hilton Head,SC
+2011,12,290,12,Harbour Town Golf Links,The Heritage,4/21/11,4/24/11,"$5,700,000 ", USA ,Hilton Head,SC
+2010,12,290,12,Harbour Town Golf Links,Verizon Heritage,4/15/10,4/18/10,"$5,700,000 ", USA ,Hilton Head,SC
+2009,12,290,12,Harbour Town Golf Links,Verizon Heritage,4/16/09,4/19/09,"$5,700,000 ", USA ,Hilton Head,SC
+2008,12,290,12,Harbour Town Golf Links,Verizon Heritage,4/17/08,4/20/08,"$5,500,000 ", USA ,Hilton Head,SC
+2007,12,290,12,Harbour Town Golf Links,Verizon Heritage,4/12/07,4/15/07,"$5,400,000 ", USA ,Hilton Head,SC
+2006,12,290,12,Harbour Town Golf Links,Verizon Heritage,4/13/06,4/16/06,"$5,300,000 ", USA ,Hilton Head,SC
+2005,12,290,12,Harbour Town Golf Links,MCI Heritage,4/14/05,4/17/05,"$5,200,000 ", USA ,Hilton Head,SC
+2004,12,290,12,Harbour Town Golf Links,MCI Heritage,4/15/04,4/18/04,"$4,800,000 ", USA ,Hilton Head,SC
+2021,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/22/21,4/25/21,"$7,400,000 ", USA ,Avondale,LA
+2019,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/25/19,4/28/19,"$7,300,000 ", USA ,Avondale,LA
+2018,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/26/18,4/29/18,"$7,200,000 ", USA ,Avondale,LA
+2017,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/27/17,4/30/17,"$7,100,000 ", USA ,Avondale,LA
+2016,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/28/16,5/1/16,"$7,000,000 ", USA ,Avondale,LA
+2015,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/23/15,4/26/15,"$6,900,000 ", USA ,Avondale,LA
+2014,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/24/14,4/27/14,"$6,800,000 ", USA ,Avondale,LA
+2013,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/25/13,4/28/13,"$6,600,000 ", USA ,Avondale,LA
+2012,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/26/12,4/29/12,"$6,400,000 ", USA ,Avondale,LA
+2011,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/28/11,5/1/11,"$6,400,000 ", USA ,Avondale,LA
+2010,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/22/10,4/25/10,"$6,400,000 ", USA ,Avondale,LA
+2009,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/23/09,4/26/09,"$6,300,000 ", USA ,Avondale,LA
+2008,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,3/27/08,3/30/08,"$6,200,000 ", USA ,Avondale,LA
+2007,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/19/07,4/22/07,"$6,100,000 ", USA ,Avondale,LA
+2006,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/27/06,4/30/06,"$6,000,000 ", USA ,Avondale,LA
+2005,18,300,714,TPC Louisiana,Zurich Classic of New Orleans,4/28/05,5/1/05,"$5,500,000 ", USA ,Avondale,LA
+2021,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,4/29/21,5/2/21,"$6,900,000 ", USA ,Palm Harbor,FL
+2019,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/21/19,3/24/19,"$6,700,000 ", USA ,Palm Harbor,FL
+2018,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/8/18,3/11/18,"$6,500,000 ", USA ,Palm Harbor,FL
+2017,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/9/17,3/12/17,"$6,300,000 ", USA ,Palm Harbor,FL
+2016,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/10/16,3/13/16,"$6,100,000 ", USA ,Palm Harbor,FL
+2015,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/12/15,3/15/15,"$5,900,000 ", USA ,Palm Harbor,FL
+2014,475,240,665,Innisbrook Resort (Copperhead),Valspar Championship,3/13/14,3/16/14,"$5,700,000 ", USA ,Palm Harbor,FL
+2013,475,240,665,Innisbrook Resort (Copperhead),Tampa Bay Championship presented by EverBank,3/14/13,3/17/13,"$5,500,000 ", USA ,Palm Harbor,FL
+2012,475,240,665,Innisbrook Resort (Copperhead),Transitions Championship,3/15/12,3/18/12,"$5,500,000 ", USA ,Palm Harbor,FL
+2011,475,240,665,Innisbrook Resort (Copperhead),Transitions Championship,3/17/11,3/20/11,"$5,500,000 ", USA ,Palm Harbor,FL
+2010,475,240,665,Innisbrook Resort (Copperhead),Transitions Championship,3/18/10,3/21/10,"$5,400,000 ", USA ,Palm Harbor,FL
+2009,475,240,665,Innisbrook Resort (Copperhead),Transitions Championship,3/19/09,3/22/09,"$5,400,000 ", USA ,Palm Harbor,FL
+2008,475,240,665,Innisbrook Resort (Copperhead),PODS Championship,3/6/08,3/9/08,"$5,300,000 ", USA ,Palm Harbor,FL
+2007,475,240,665,Innisbrook Resort (Copperhead),PODS Championship,3/8/07,3/11/07,"$5,300,000 ", USA ,Palm Harbor,FL
+2006,475,240,665,Innisbrook Resort (Copperhead),Chrysler Championship,10/26/06,10/29/06,"$5,300,000 ", USA ,Palm Harbor,FL
+2005,475,240,665,Innisbrook Resort (Copperhead),Chrysler Championship,10/27/05,10/30/05,"$5,300,000 ", USA ,Palm Harbor,FL
+2004,475,240,665,Innisbrook Resort (Copperhead),Chrysler Championship,10/28/04,10/31/04,"$5,000,000 ", USA ,Palm Harbor,FL
+2021,480,320,,Quail Hollow Club,Wells Fargo Championship,5/6/21,5/9/21,"$8,100,000 ", USA ,,
+2019,480,320,,Quail Hollow Club,Wells Fargo Championship,5/2/19,5/5/19,"$7,900,000 ", USA ,,
+2018,480,320,,Quail Hollow Club,Wells Fargo Championship,5/3/18,5/6/18,"$7,700,000 ", USA ,,
+2017,480,320,,Eagle Point Golf Club,Wells Fargo Championship,5/4/17,5/7/17,"$7,500,000 ", USA ,,
+2016,480,320,,Quail Hollow Club,Wells Fargo Championship,5/5/16,5/8/16,"$7,300,000 ", USA ,,
+2015,480,320,,Quail Hollow Club,Wells Fargo Championship,5/14/15,5/17/15,"$7,100,000 ", USA ,,
+2014,480,320,,Quail Hollow Club,Wells Fargo Championship,5/1/14,5/4/14,"$6,900,000 ", USA ,,
+2013,480,320,,Quail Hollow Club,Wells Fargo Championship,5/2/13,5/5/13,"$6,700,000 ", USA ,,
+2012,480,320,,Quail Hollow Club,Wells Fargo Championship,5/3/12,5/6/12,"$6,500,000 ", USA ,,
+2011,480,320,,Quail Hollow Club,Wells Fargo Championship,5/5/11,5/8/11,"$6,500,000 ", USA ,,
+2010,480,320,,Quail Hollow Club,Quail Hollow Championship,4/29/10,5/2/10,"$6,500,000 ", USA ,,
+2009,480,320,,Quail Hollow Club,Quail Hollow Championship,4/30/09,5/3/09,"$6,500,000 ", USA ,,
+2008,480,320,,Quail Hollow Club,Wachovia Championship,5/1/08,5/4/08,"$6,400,000 ", USA ,,
+2007,480,320,,Quail Hollow Club,Wachovia Championship,5/3/07,5/6/07,"$6,300,000 ", USA ,,
+2006,480,320,,Quail Hollow Club,Wachovia Championship,5/4/06,5/7/06,"$6,300,000 ", USA ,,
+2005,480,320,,Quail Hollow Club,Wachovia Championship,5/5/05,5/8/05,"$6,000,000 ", USA ,,
+2004,480,320,,Quail Hollow Club,Wachovia Championship,5/6/04,5/9/04,"$5,600,000 ", USA ,,
+2021,19,330,894,TPC Craig Ranch,AT&T Byron Nelson,5/13/21,5/16/21,"$8,100,000 ", USA ,McKinney,TX
+2019,19,330,,Trinity Forest Golf Club,AT&T Byron Nelson,5/9/19,5/12/19,"$7,900,000 ", USA ,McKinney,TX
+2018,19,330,,Trinity Forest Golf Club,AT&T Byron Nelson,5/17/18,5/20/18,"$7,700,000 ", USA ,McKinney,TX
+2017,19,330,,TPC Four Seasons Resort,AT&T Byron Nelson,5/18/17,5/21/17,"$7,500,000 ", USA ,McKinney,TX
+2016,19,330,,TPC Four Seasons Resort,AT&T Byron Nelson,5/19/16,5/22/16,"$7,300,000 ", USA ,McKinney,TX
+2015,19,330,,TPC Four Seasons Resort,AT&T Byron Nelson,5/28/15,5/31/15,"$7,100,000 ", USA ,McKinney,TX
+2014,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/15/14,5/18/14,"$6,900,000 ", USA ,McKinney,TX
+2013,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/16/13,5/19/13,"$6,700,000 ", USA ,McKinney,TX
+2012,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/17/12,5/20/12,"$6,500,000 ", USA ,McKinney,TX
+2011,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/26/11,5/29/11,"$6,500,000 ", USA ,McKinney,TX
+2010,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/20/10,5/23/10,"$6,500,000 ", USA ,McKinney,TX
+2009,19,330,,TPC Four Seasons Resort,HP Byron Nelson Championship,5/21/09,5/24/09,"$6,500,000 ", USA ,McKinney,TX
+2008,19,330,,TPC Four Seasons Resort,EDS Byron Nelson Championship,4/24/08,4/27/08,"$6,400,000 ", USA ,McKinney,TX
+2007,19,330,,TPC Four Seasons Resort,EDS Byron Nelson Championship,4/26/07,4/29/07,"$6,300,000 ", USA ,McKinney,TX
+2006,19,330,,TPC Four Seasons Resort,EDS Byron Nelson Championship,5/11/06,5/14/06,"$6,200,000 ", USA ,McKinney,TX
+2005,19,330,,TPC Four Seasons Resort,EDS Byron Nelson Championship,5/12/05,5/15/05,"$6,200,000 ", USA ,McKinney,TX
+2004,19,330,,TPC Four Seasons Resort,EDS Byron Nelson Championship,5/13/04,5/16/04,"$5,800,000 ", USA ,McKinney,TX
+2021,33,340,,Ocean Course at Kiawah Island,PGA Championship,5/20/21,5/23/21,"$12,000,000 ", USA ,,
+2020,33,340,,TPC Harding Park,PGA Championship,8/6/20,8/9/20,"$11,000,000 ", USA ,,
+2019,33,340,,Bethpage State Park (Black),PGA Championship,5/16/19,5/19/19, $-   , USA ,,
+2018,33,340,,Bellerive CC,PGA Championship,8/9/18,8/12/18,"$11,000,000 ", USA ,,
+2017,33,340,,Quail Hollow Club,PGA Championship,8/10/17,8/13/17,"$10,500,000 ", USA ,,
+2016,33,340,,Baltusrol GC,PGA Championship,7/28/16,7/31/16,"$10,000,000 ", USA ,,
+2015,33,340,,Whistling Straits,PGA Championship,8/13/15,8/16/15,"$10,000,000 ", USA ,,
+2014,33,340,,Valhalla GC,PGA Championship,8/13/15,8/16/15,"$10,000,000 ", USA ,,
+2013,33,340,,Oak Hill CC,PGA Championship,8/8/13,8/11/13,"$8,000,000 ", USA ,,
+2012,33,340,,Kiawah Island Resort (Ocean),PGA Championship,8/9/12,8/12/12,"$8,000,000 ", USA ,,
+2011,33,340,,Atlanta Athletic Club,PGA Championship,8/11/11,8/14/11,"$8,000,000 ", USA ,,
+2010,33,340,,Whistling Straits,PGA Championship,8/12/10,8/15/10,"$7,500,000 ", USA ,,
+2009,33,340,,Hazeltine National GC,PGA Championship,8/13/09,8/16/09,"$7,500,000 ", USA ,,
+2008,33,340,,Oakland Hills CC (South),PGA Championship,8/7/08,8/10/08,"$7,500,000 ", USA ,,
+2007,33,340,,Southern Hills CC,PGA Championship,8/9/07,8/12/07,"$7,500,000 ", USA ,Tulsa,OK
+2006,33,340,,Medinah CC,PGA Championship,8/17/06,8/20/06,"$6,500,000 ", USA ,,
+2005,33,340,,Baltusrol GC,PGA Championship,8/11/05,8/14/05,"$6,250,000 ", USA ,,
+2004,33,340,,Whistling Straits,PGA Championship,8/12/04,8/15/04,"$6,250,000 ", USA ,,
+2021,21,350,21,Colonial Country Club,Charles Schwab Challenge,5/27/21,5/30/21,"$7,500,000 ", USA ,Fort Worth,TX
+2020,21,350,21,Colonial Country Club,Charles Schwab Challenge,6/11/20,6/14/20,"$7,500,000 ", USA ,Fort Worth,TX
+2019,21,350,21,Colonial Country Club,Charles Schwab Challenge,5/23/19,5/26/19,"$7,300,000 ", USA ,Fort Worth,TX
+2018,21,350,21,Colonial Country Club,Fort Worth Invitational,5/24/18,5/27/18,"$7,100,000 ", USA ,Fort Worth,TX
+2017,21,350,21,Colonial Country Club,DEAN & DELUCA Invitational,5/25/17,5/28/17,"$6,900,000 ", USA ,Fort Worth,TX
+2016,21,350,21,Colonial Country Club,DEAN & DELUCA Invitational,5/26/16,5/29/16,"$6,900,000 ", USA ,Fort Worth,TX
+2015,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/21/15,5/24/15,"$6,500,000 ", USA ,Fort Worth,TX
+2014,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/22/14,5/25/14,"$6,400,000 ", USA ,Fort Worth,TX
+2013,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/23/13,5/26/13,"$6,400,000 ", USA ,Fort Worth,TX
+2012,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/24/12,5/27/12,"$6,400,000 ", USA ,Fort Worth,TX
+2011,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/19/11,5/22/11,"$6,200,000 ", USA ,Fort Worth,TX
+2010,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/27/10,5/30/10,"$6,200,000 ", USA ,Fort Worth,TX
+2009,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/28/09,5/31/09,"$6,200,000 ", USA ,Fort Worth,TX
+2008,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/22/08,5/25/08,"$6,100,000 ", USA ,Fort Worth,TX
+2007,21,350,21,Colonial Country Club,Crowne Plaza Invitational at Colonial,5/24/07,5/27/07,"$6,000,000 ", USA ,Fort Worth,TX
+2006,21,350,21,Colonial Country Club,Bank of America Colonial,5/18/06,5/21/06,"$6,000,000 ", USA ,Fort Worth,TX
+2005,21,350,21,Colonial Country Club,Bank of America Colonial,5/19/05,5/22/05,"$5,600,000 ", USA ,Fort Worth,TX
+2004,21,350,21,Colonial Country Club,Bank of America Colonial,5/20/04,5/23/04,"$5,300,000 ", USA ,Fort Worth,TX
+2021,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,6/3/21,6/6/21,"$9,300,000 ", USA ,Dublin,OH
+2020,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,7/16/20,7/19/20,"$9,300,000 ", USA ,Dublin,OH
+2019,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,5/30/18,6/2/19,"$9,100,000 ", USA ,Dublin,OH
+2018,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,5/31/18,6/3/18,"$8,900,000 ", USA ,Dublin,OH
+2017,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,6/1/17,6/4/17,"$8,700,000 ", USA ,Dublin,OH
+2016,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,6/2/16,6/5/16,"$8,500,000 ", USA ,Dublin,OH
+2015,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide,6/4/15,6/7/15,"$6,200,000 ", USA ,Dublin,OH
+2014,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide Insurance,5/29/14,6/1/14,"$6,200,000 ", USA ,Dublin,OH
+2013,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide Insurance,5/30/13,6/2/13,"$6,200,000 ", USA ,Dublin,OH
+2012,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide Insurance,5/31/12,6/3/12,"$6,200,000 ", USA ,Dublin,OH
+2011,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide Insurance,6/2/11,6/5/11,"$6,200,000 ", USA ,Dublin,OH
+2010,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Nationwide Insurance,6/3/10,6/6/10,"$6,000,000 ", USA ,Dublin,OH
+2009,23,360,23,Muirfield Village Golf Club,the Memorial Tournament,6/4/09,6/7/09,"$6,000,000 ", USA ,Dublin,OH
+2008,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Morgan Stanley,5/29/08,6/1/08,"$6,000,000 ", USA ,Dublin,OH
+2007,23,360,23,Muirfield Village Golf Club,the Memorial Tournament presented by Morgan Stanley,5/31/07,6/3/07,"$6,000,000 ", USA ,Dublin,OH
+2006,23,360,23,Muirfield Village Golf Club,the Memorial Tournament,6/1/06,6/4/06,"$5,750,000 ", USA ,Dublin,OH
+2005,23,360,23,Muirfield Village Golf Club,the Memorial Tournament,6/2/05,6/5/05,"$5,500,000 ", USA ,Dublin,OH
+2004,23,360,23,Muirfield Village Golf Club,the Memorial Tournament,6/3/04,6/6/04,"$5,250,000 ", USA ,Dublin,OH
+2021,,,,Congaree Golf Club,Palmetto Championship at Congaree,6/10/21,6/13/21,"$7,300,000 ", USA ,Ridgeland,SC
+2021,34,390,503,TPC River Highlands,Travelers Championship,6/24/21,6/27/21,"$7,400,000 ", USA ,Cromwell,CT
+2020,34,390,503,TPC River Highlands,Travelers Championship,6/25/20,6/28/20,"$7,400,000 ", USA ,Cromwell,CT
+2019,34,390,503,TPC River Highlands,Travelers Championship,6/20/19,6/23/19,"$7,200,000 ", USA ,Cromwell,CT
+2018,34,390,503,TPC River Highlands,Travelers Championship,6/21/18,6/24/18,"$7,000,000 ", USA ,Cromwell,CT
+2017,34,390,503,TPC River Highlands,Travelers Championship,6/22/17,6/25/17,"$6,800,000 ", USA ,Cromwell,CT
+2016,34,390,503,TPC River Highlands,Travelers Championship,8/4/16,8/7/16,"$6,600,000 ", USA ,Cromwell,CT
+2015,34,390,503,TPC River Highlands,Travelers Championship,6/25/15,6/28/15,"$6,400,000 ", USA ,Cromwell,CT
+2014,34,390,503,TPC River Highlands,Travelers Championship,6/19/14,6/22/14,"$6,200,000 ", USA ,Cromwell,CT
+2013,34,390,503,TPC River Highlands,Travelers Championship,6/20/13,6/23/13,"$6,100,000 ", USA ,Cromwell,CT
+2012,34,390,503,TPC River Highlands,Travelers Championship,6/21/12,6/24/12,"$6,000,000 ", USA ,Cromwell,CT
+2011,34,390,503,TPC River Highlands,Travelers Championship,6/23/11,6/26/11,"$6,000,000 ", USA ,Cromwell,CT
+2010,34,390,503,TPC River Highlands,Travelers Championship,6/24/10,6/27/10,"$6,000,000 ", USA ,Cromwell,CT
+2009,34,390,503,TPC River Highlands,Travelers Championship,6/25/09,6/28/09,"$6,000,000 ", USA ,Cromwell,CT
+2008,34,390,503,TPC River Highlands,Travelers Championship,6/19/08,6/22/08,"$6,000,000 ", USA ,Cromwell,CT
+2007,34,390,503,TPC River Highlands,Travelers Championship,6/21/07,6/24/07,"$6,000,000 ", USA ,Cromwell,CT
+2006,34,390,503,TPC River Highlands,Buick Championship,6/29/06,7/2/06,"$4,400,000 ", USA ,Cromwell,CT
+2005,34,390,503,TPC River Highlands,Buick Championship,8/25/05,8/28/05,"$4,300,000 ", USA ,Cromwell,CT
+2004,34,390,503,TPC River Highlands,Buick Championship,8/26/04,8/29/04,"$4,200,000 ", USA ,Cromwell,CT
+2021,524,460,876,Detroit Golf Club,Rocket Mortgage Classic,7/1/21,7/4/21,"$7,500,000 ", USA ,Detroit,MI
+2020,524,460,876,Detroit Golf Club,Rocket Mortgage Classic,7/2/20,7/5/20,"$7,500,000 ", USA ,Detroit,MI
+2019,524,460,876,Detroit Golf Club,Rocket Mortgage Classic,6/27/19,6/30/19,"$7,300,000 ", USA ,Detroit,MI
+2021,30,400,669,TPC Deere Run,John Deere Classic,7/8/21,7/11/21,"$6,200,000 ", USA ,Silvis,IL
+2019,30,400,669,TPC Deere Run,John Deere Classic,7/11/19,7/14/19,"$6,000,000 ", USA ,Silvis,IL
+2018,30,400,669,TPC Deere Run,John Deere Classic,7/12/18,7/15/18,"$5,800,000 ", USA ,Silvis,IL
+2017,30,400,669,TPC Deere Run,John Deere Classic,7/13/17,7/16/17,"$5,600,000 ", USA ,Silvis,IL
+2016,30,400,669,TPC Deere Run,John Deere Classic,8/11/16,8/14/16,"$4,800,000 ", USA ,Silvis,IL
+2015,30,400,669,TPC Deere Run,John Deere Classic,7/9/15,7/12/15,"$4,700,000 ", USA ,Silvis,IL
+2014,30,400,669,TPC Deere Run,John Deere Classic,7/10/14,7/13/14,"$4,700,000 ", USA ,Silvis,IL
+2013,30,400,669,TPC Deere Run,John Deere Classic,7/11/13,7/14/13,"$4,600,000 ", USA ,Silvis,IL
+2012,30,400,669,TPC Deere Run,John Deere Classic,7/12/12,7/15/12,"$4,600,000 ", USA ,Silvis,IL
+2011,30,400,669,TPC Deere Run,John Deere Classic,7/7/11,7/10/11,"$4,500,000 ", USA ,Silvis,IL
+2010,30,400,669,TPC Deere Run,John Deere Classic,7/8/10,7/11/10,"$4,400,000 ", USA ,Silvis,IL
+2009,30,400,669,TPC Deere Run,John Deere Classic,7/9/09,7/12/09,"$4,300,000 ", USA ,Silvis,IL
+2008,30,400,669,TPC Deere Run,John Deere Classic,7/10/08,7/13/08,"$4,200,000 ", USA ,Silvis,IL
+2007,30,400,669,TPC Deere Run,John Deere Classic,7/12/07,7/15/07,"$4,100,000 ", USA ,Silvis,IL
+2006,30,400,669,TPC Deere Run,John Deere Classic,7/13/06,7/16/06,"$4,000,000 ", USA ,Silvis,IL
+2005,30,400,669,TPC Deere Run,John Deere Classic,7/7/05,7/10/05,"$4,000,000 ", USA ,Silvis,IL
+2004,30,400,669,TPC Deere Run,John Deere Classic,7/8/04,7/11/04,"$3,800,000 ", USA ,Silvis,IL
+2021,518,410,884,Keene Trace Golf Club,Barbasol Championship,7/15/21,7/18/21,"$3,500,000 ", USA ,Nicholasville,KY
+2019,518,410,884,Keene Trace Golf Club,Barbasol Championship,7/18/19,7/21/19,"$3,500,000 ", USA ,Nicholasville,KY
+2018,518,410,884,Keene Trace Golf Club,Barbasol Championship,7/19/18,7/22/18,"$3,500,000 ", USA ,Nicholasville,KY
+2017,518,410,,RTJ Trail (Grand National),Barbasol Championship,7/20/17,7/23/17,"$3,500,000 ",,,
+2016,518,410,,RTJ Trail (Grand National),Barbasol Championship,7/14/16,7/17/16,"$3,500,000 ",,,
+2015,518,410,,RTJ Trail (Grand National),Barbasol Championship,7/16/15,7/19/15,"$3,500,000 ",,,
+2021,100,440,,Royal St. George's GC,The Open Championship,7/15/21,7/18/21,"$11,500,000 ",,,
+2019,100,440,,Royal Portrush Golf Club,The Open Championship,7/18/19,7/21/19,"$10,750,000 ",,,
+2018,100,440,,Carnoustie GC,The Open Championship,7/19/18,7/22/18,"$10,750,000 ",,,
+2017,100,440,,Royal Birkdale GC,The Open Championship,7/20/17,7/23/17,"$10,250,000 ",,,
+2016,100,440,,Royal Troon GC,The Open Championship,7/14/16,7/17/16,"$9,300,000 ",,,
+2015,100,440,668,St. Andrews Links (Old Course),The Open Championship,7/16/15,7/19/15,"$9,200,000 ", SCO ,Fife,
+2014,100,440,,Royal Liverpool GC,The Open Championship,7/17/14,7/20/14,"$9,200,000 ",,,
+2013,100,440,,Muirfield,The Open Championship,7/18/13,7/21/13,"$8,000,000 ",,,
+2012,100,440,,Royal Lytham St. Anne,The Open Championship,7/19/12,7/22/12,"$8,000,000 ",,,
+2011,100,440,,Royal St. George's GC,The Open Championship,7/14/11,7/17/11,"$7,300,000 ",,,
+2010,100,440,668,St. Andrews Links (Old Course),The Open Championship,7/15/10,7/18/10,"$7,000,000 ", SCO ,Fife,
+2009,100,440,,Turnberry (Alisa),The Open Championship,7/16/09,7/19/09,"$6,519,273 ",,,
+2008,100,440,,Royal Birkdale GC,The Open Championship,7/17/08,7/20/08,"$8,161,173 ",,,
+2007,100,440,,Carnoustie GC,The Open Championship,7/19/07,7/22/07,"$8,177,452 ",,,
+2006,100,440,,Royal Liverpool GC,The Open Championship,7/20/06,7/23/06,"$6,750,000 ",,,
+2005,100,440,668,St. Andrews Links (Old Course),The Open Championship,7/14/05,7/17/05,"$6,754,555 ", SCO ,Fife,
+2004,100,440,,Royal Troon GC,The Open Championship,7/15/04,7/18/04,"$7,154,642 ",,,
+2021,525,450,883,TPC Twin Cities,3M Open,7/22/21,7/25/21,"$6,600,000 ", USA ,Blaine,MN
+2020,525,450,883,TPC Twin Cities,3M Open,7/23/20,7/26/20,"$6,600,000 ", USA ,Blaine,MN
+2019,525,450,883,TPC Twin Cities,3M Open,7/4/19,7/7/19,"$6,400,000 ", USA ,Blaine,MN
+2021,472,430,890,Tahoe Mt. Club (Old Greenwood),Barracuda Championship,8/5/21,8/8/21,"$3,500,000 ", USA ,Truckee,CA
+2020,472,430,890,Tahoe Mt. Club (Old Greenwood),Barracuda Championship,7/30/20,8/2/20,"$3,500,000 ", USA ,Truckee,CA
+2019,472,430,,Montreux G&CC,Barracuda Championship,7/25/19,7/28/19,"$3,500,000 ",,,
+2018,472,430,,Montreux G&CC,Barracuda Championship,8/2/18,8/5/18,"$3,400,000 ",,,
+2017,472,430,,Montreux G&CC,Barracuda Championship,8/3/17,8/6/17,"$3,300,000 ",,,
+2016,472,430,,Montreux G&CC,Barracuda Championship,6/30/16,7/3/16,"$3,200,000 ",,,
+2015,472,430,,Montreux G&CC,Barracuda Championship,8/6/15,8/9/15,"$3,100,000 ",,,
+2014,472,430,,Montreux G&CC,Barracuda Championship,7/31/14,8/3/14,"$3,000,000 ",,,
+2013,472,430,,Montreux G&CC,Reno-Tahoe Open,8/1/13,8/4/13,"$3,000,000 ",,,
+2012,472,430,,Montreux G&CC,Reno-Tahoe Open,8/2/12,8/5/12,"$3,000,000 ",,,
+2011,472,430,,Montreux G&CC,Reno-Tahoe Open,8/4/11,8/7/11,"$3,000,000 ",,,
+2010,472,430,,Montreux G&CC,Reno-Tahoe Open,7/15/10,7/18/10,"$3,000,000 ",,,
+2009,472,430,,Montreux G&CC,Legends Reno-Tahoe Open,8/6/09,8/9/09,"$3,000,000 ",,,
+2008,472,430,,Montreux G&CC,Legends Reno-Tahoe Open,7/31/08,8/3/08,"$3,000,000 ",,,
+2007,472,430,,Montreux G&CC,Reno-Tahoe Open,8/2/07,8/5/07,"$3,000,000 ",,,
+2006,472,430,,Montreux G&CC,Reno-Tahoe Open,8/24/06,8/27/06,"$3,000,000 ",,,
+2005,472,430,,Montreux G&CC,Reno-Tahoe Open,8/18/05,8/21/05,"$3,000,000 ",,,
+2004,472,430,,Montreux G&CC,Reno-Tahoe Open,8/19/04,8/22/04,"$3,000,000 ",,,
+2021,13,470,752,Sedgefield Country Club,Wyndham Championship,8/12/21,8/15/21,"$6,400,000 ", USA ,Greensboro,NC
+2020,13,470,752,Sedgefield Country Club,Wyndham Championship,8/13/20,8/16/20,"$6,400,000 ", USA ,Greensboro,NC
+2019,13,470,752,Sedgefield Country Club,Wyndham Championship,8/1/19,8/4/19,"$6,200,000 ", USA ,Greensboro,NC
+2018,13,470,752,Sedgefield Country Club,Wyndham Championship,8/16/18,8/19/18,"$6,000,000 ", USA ,Greensboro,NC
+2017,13,470,752,Sedgefield Country Club,Wyndham Championship,8/17/17,8/20/17,"$5,800,000 ", USA ,Greensboro,NC
+2016,13,470,752,Sedgefield Country Club,Wyndham Championship,8/18/16,8/21/16,"$5,600,000 ", USA ,Greensboro,NC
+2015,13,470,752,Sedgefield Country Club,Wyndham Championship,8/20/15,8/23/15,"$5,400,000 ", USA ,Greensboro,NC
+2014,13,470,752,Sedgefield Country Club,Wyndham Championship,8/14/14,8/17/14,"$5,300,000 ", USA ,Greensboro,NC
+2013,13,470,752,Sedgefield Country Club,Wyndham Championship,8/15/13,8/18/13,"$5,300,000 ", USA ,Greensboro,NC
+2012,13,470,752,Sedgefield Country Club,Wyndham Championship,8/16/12,8/19/12,"$5,200,000 ", USA ,Greensboro,NC
+2011,13,470,752,Sedgefield Country Club,Wyndham Championship,8/18/11,8/21/11,"$5,200,000 ", USA ,Greensboro,NC
+2010,13,470,752,Sedgefield Country Club,Wyndham Championship,8/19/10,8/22/10,"$5,100,000 ", USA ,Greensboro,NC
+2009,13,470,752,Sedgefield Country Club,Wyndham Championship,8/20/09,8/23/09,"$5,100,000 ", USA ,Greensboro,NC
+2008,13,470,752,Sedgefield Country Club,Wyndham Championship,8/14/08,8/17/08,"$5,100,000 ", USA ,Greensboro,NC
+2007,13,470,,Forest Oaks CC,Wyndham Championship,8/16/07,8/19/07,"$5,000,000 ", USA ,Greensboro,NC
+2006,13,470,,Forest Oaks CC,Chrysler Classic of Greensboro,10/5/06,10/8/06,"$5,000,000 ", USA ,Greensboro,NC
+2005,13,470,,Forest Oaks CC,Chrysler Classic of Greensboro,7/30/05,10/2/05,"$5,000,000 ", USA ,Greensboro,NC
+2004,13,470,,Forest Oaks CC,Chrysler Classic of Greensboro,10/14/04,10/17/04,"$4,600,000 ", USA ,Greensboro,NC
+2021,27,480,513,TPC Southwind,World Golf Championships-FedEx St. Jude Championship,8/5/21,8/8/21,"$10,500,000 ", USA ,Memphis,TN
+2020,27,480,513,TPC Southwind,World Golf Championships-FedEx St. Jude Championship,7/30/20,8/2/20,"$10,500,000 ", USA ,Memphis,TN
+2019,27,480,513,TPC Southwind,World Golf Championships-FedEx St. Jude Championship,7/25/19,7/28/19,"$10,250,000 ", USA ,Memphis,TN
+2018,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/2/18,8/5/18,"$10,000,000 ",,,
+2017,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/3/17,8/6/17,"$9,750,000 ",,,
+2016,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,6/30/16,7/3/16,"$9,500,000 ",,,
+2015,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/6/15,8/9/15,"$9,250,000 ",,,
+2014,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,7/31/14,8/3/14,"$9,000,000 ",,,
+2013,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/1/13,8/4/13,"$8,750,000 ",,,
+2012,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/2/12,8/5/12,"$8,500,000 ",,,
+2011,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/4/11,8/7/11,"$8,500,000 ",,,
+2010,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/5/10,8/8/10,"$8,500,000 ",,,
+2009,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/6/09,8/9/09,"$8,500,000 ",,,
+2008,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,7/31/08,8/3/08,"$8,000,000 ",,,
+2007,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/2/07,8/5/07,"$8,000,000 ",,,
+2006,27,480,,Firestone CC (South),World Golf Championships-Bridgestone Invitational,8/24/06,8/27/06,"$7,500,000 ",,,
+2005,27,480,,Firestone CC (South),World Golf Championships-NEC Invitational,8/18/05,8/21/05,"$7,500,000 ",,,
+2004,27,480,,Firestone CC (South),World Golf Championships-NEC Invitational,8/19/04,8/22/04,"$7,000,000 ",,,
+2021,28,490,,Caves Valley Golf Club,BMW Championship,8/26/21,8/29/21,"$9,500,000 ",,,
+2020,28,490,,Olympia Fields CC (North),BMW Championship,8/27/20,8/30/20,"$9,500,000 ",,,
+2019,28,490,,Medinah CC (No. 3),BMW Championship,8/15/19,8/18/19,"$9,250,000 ",,,
+2018,28,490,,Aronimink GC,BMW Championship,9/6/18,9/9/18,"$9,000,000 ",,,
+2017,28,490,,Conway Farms GC,BMW Championship,9/14/17,9/17/17,"$8,750,000 ",,,
+2016,28,490,,Crooked Stick GC,BMW Championship,9/8/16,9/11/16,"$8,500,000 ",,,
+2015,28,490,,Crooked Stick GC,BMW Championship,9/17/15,9/20/15,"$8,250,000 ",,,
+2013,28,490,,Conway Farms GC,BMW Championship,9/12/13,9/15/13,"$8,000,000 ",,,
+2012,28,490,,Crooked Stick GC,BMW Championship,9/6/12,9/9/12,"$8,000,000 ",,,
+2011,28,490,,Cog Hill G&CC,BMW Championship,9/15/11,9/18/11,"$8,000,000 ",,,
+2010,28,490,,Cog Hill G&CC,BMW Championship,9/9/10,9/12/10,"$7,500,000 ",,,
+2009,28,490,,Cog Hill G&CC,BMW Championship,9/10/09,9/13/09,"$7,500,000 ",,,
+2008,28,490,,Bellerive CC,BMW Championship,9/4/08,9/7/08,"$7,000,000 ",,,
+2007,28,490,,Cog Hill G&CC,BMW Championship,9/6/07,9/9/07,"$7,000,000 ",,,
+2006,28,490,,Cog Hill G&CC,Cialis Western Open,7/6/06,7/9/06,"$5,000,000 ",,,
+2005,28,490,,Cog Hill G&CC,Cialis Western Open,6/30/05,7/3/05,"$5,000,000 ",,,
+2004,28,490,,Cog Hill G&CC,Cialis Western Open,7/1/04,7/4/04,"$4,800,000 ",,,
+2021,60,500,688,East Lake Golf Club,TOUR Championship,9/2/21,9/5/21,, USA ,Atlanta,GA
+2020,60,500,688,East Lake Golf Club,TOUR Championship,9/4/20,9/7/20,, USA ,Atlanta,GA
+2019,60,500,688,East Lake Golf Club,TOUR Championship,8/22/19,8/25/19,, USA ,Atlanta,GA
+2018,60,500,688,East Lake Golf Club,TOUR Championship,8/22/19,8/25/19,"$9,000,000 ", USA ,Atlanta,GA
+2017,60,500,688,East Lake Golf Club,TOUR Championship,9/21/17,9/24/17,"$8,750,000 ", USA ,Atlanta,GA
+2016,60,500,688,East Lake Golf Club,TOUR Championship,9/22/16,9/25/16,"$8,500,000 ", USA ,Atlanta,GA
+2015,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/24/15,9/27/15,"$8,500,000 ", USA ,Atlanta,GA
+2014,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/11/14,9/14/14,"$8,000,000 ", USA ,Atlanta,GA
+2013,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/19/13,9/22/13,"$8,000,000 ", USA ,Atlanta,GA
+2012,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/20/12,9/23/12,"$8,000,000 ", USA ,Atlanta,GA
+2011,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/22/11,9/25/11,"$8,000,000 ", USA ,Atlanta,GA
+2010,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/23/10,9/26/10,"$7,500,000 ", USA ,Atlanta,GA
+2009,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/24/09,9/27/09,"$7,500,000 ", USA ,Atlanta,GA
+2008,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/25/08,9/28/08,"$7,000,000 ", USA ,Atlanta,GA
+2007,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,9/13/07,9/16/07,"$7,000,000 ", USA ,Atlanta,GA
+2006,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,11/2/06,11/5/06,"$6,500,000 ", USA ,Atlanta,GA
+2005,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,11/3/05,11/6/05,"$6,500,000 ", USA ,Atlanta,GA
+2004,60,500,688,East Lake Golf Club,TOUR Championship by Coca-Cola,11/4/04,11/7/04,"$6,000,000 ", USA ,Atlanta,GA
+2020,478,115,232,Albany,Hero World Challenge,12/4/19,12/7/19,"$3,500,000 ", BAH ,New Providence,
+2019,478,115,232,Albany,Hero World Challenge,11/29/18,12/2/18,"$3,500,000 ", BAH ,New Providence,
+2018,478,115,232,Albany,Hero World Challenge,11/30/17,12/3/17,"$3,500,000 ", BAH ,New Providence,
+2017,478,115,232,Albany,Hero World Challenge,12/1/16,12/4/16,"$3,500,000 ", BAH ,New Providence,
+2016,478,115,232,Albany,Hero World Challenge,12/3/15,12/6/15,"$3,500,000 ", BAH ,New Providence,
+2015,478,115,,Isleworth G&CC,Hero World Challenge,12/4/14,12/7/14,"$3,500,000 ",,,
+2014,478,115,,Sherwood CC,Northwestern Mutual World Challenge,12/5/13,12/8/13,"$3,500,000 ",,,
+2012,478,115,,Sherwood CC,World Challenge presented by Northwestern Mutual,11/29/12,12/2/12,"$4,000,000 ",,,
+2011,478,115,,Sherwood CC,Chevron World Challenge,12/1/11,12/4/11,"$5,000,000 ",,,
+2010,478,115,,Sherwood CC,Chevron World Challenge,12/2/10,12/5/10,"$5,000,000 ",,,
+2009,478,115,,Sherwood CC,Chevron World Challenge,12/3/09,12/6/09,"$5,750,000 ",,,
+2008,478,115,,Sherwood CC,Chevron World Challenge presented by Bank of America,12/18/08,12/21/08,"$5,750,000 ",,,
+2007,478,115,,Sherwood CC,Target World Challenge,12/13/07,12/16/07,"$5,750,000 ",,,
+2006,478,115,,Sherwood CC,Target World Challenge presented by Countrywide,12/14/06,12/17/06,"$5,750,000 ",,,
+2005,478,115,,Sherwood CC,Target World Challenge presented by Countrywide,12/8/05,12/11/05,"$5,500,000 ",,,
+2004,478,115,,Sherwood CC,Target World Challenge,12/9/04,12/12/04,"$5,250,000 ",,,
+2021,,,,Liberty National Golf Club,The Northern Trust,8/19/21,8/22/21,"$9,500,000 ",,,
+2020,,,,TPC Boston,The Northern Trust,8/20/20,8/23/20,"$9,500,000 ",,,
+2019,,,,Liberty National Golf Club,The Northern Trust,8/8/19,8/11/19,"$9,250,000 ",,,
+2018,,,,Ridgewood CC,The Northern Trust,8/23/15,8/26/18,"$9,000,000 ",,,
+2017,,,,Glen Oaks Club,The Northern Trust,8/24/17,8/27/17,"$8,750,000 ",,,
+2016,,,,Bethpage State Park (Black),The Barclays,8/25/16,8/28/16,"$8,500,000 ",,,
+2015,,,,Plainfeld CC,The Barclays,8/27/15,8/30/15,"$8,250,000 ",,,
+2014,,,,Ridgewood CC,The Barclays,8/21/14,8/24/14,"$8,000,000 ",,,
+2013,,,,Liberty National Golf Club,The Barclays,8/22/13,8/25/13,"$8,000,000 ",,,
+2012,,,,Bethpage State Park (Black),The Barclays,8/23/12,8/26/12,"$8,000,000 ",,,
+2011,,,,Plainfeld CC,The Barclays,8/25/11,8/28/11,"$8,000,000 ",,,
+2010,,,,Ridgewood CC,The Barclays,8/26/10,8/29/10,"$7,500,000 ",,,
+2009,,,,Liberty National Golf Club,The Barclays,8/27/09,8/30/09,"$7,500,000 ",,,
+2008,,,,Ridgewood CC,The Barclays,8/21/08,8/24/08,"$7,000,000 ",,,
+2007,,,,Westchester CC,The Barclays,8/23/07,8/26/07,"$7,000,000 ",,,
+2006,,,,Westchester CC,Barclays Classic,6/8/06,6/11/06,"$5,750,000 ",,,
+2005,,,,Westchester CC,Barclays Classic,6/23/05,6/26/05,"$5,750,000 ",,,
+2004,,,,Westchester CC,Buick Classic,6/10/04,6/13/04,"$5,250,000 ",,,
+2019,,,,TPC Kuala Lumpur,CIMB Classic,10/11/18,10/14/18,"$7,000,000 ", MAS ,Kuala Lumpur,
+2018,,,,TPC Kuala Lumpur,CIMB Classic,10/12/17,10/15/17,"$7,000,000 ", MAS ,Kuala Lumpur,
+2017,,,,TPC Kuala Lumpur,CIMB Classic,10/20/16,10/23/16,"$7,000,000 ", MAS ,Kuala Lumpur,
+2016,,,,TPC Kuala Lumpur,CIMB Classic,10/29/15,11/1/15,"$7,000,000 ", MAS ,Kuala Lumpur,
+2015,,,,TPC Kuala Lumpur,CIMB Classic,10/30/14,11/2/14,"$7,000,000 ", MAS ,Kuala Lumpur,
+2014,,,,TPC Kuala Lumpur,CIMB Classic,10/24/13,10/27/13,"$7,000,000 ", MAS ,Kuala Lumpur,
+2012,,,,The Mines Resort & GC,CIMB Classic,10/25/12,10/28/12,"$6,100,000 ",,,
+2011,,,,The Mines Resort & GC,CIMB Asia Pacific Classic Malaysia,10/27/11,10/30/11,"$6,100,000 ",,,
+2010,,,,The Mines Resort & GC,CIMB Asia Pacific Classic Malaysia,10/28/10,10/31/10,"$6,000,000 ",,,
+2019,,,,The Metropolitan Golf Club,ISPS Handa Melbourne World Cup of Golf,11/22/18,11/25/18,"$7,000,000 ", AUS ,South Oakleigh,Victoria
+2017,,,,Kingston Heath Golf Club,ISPS HANDA World Cup of Golf,11/24/16,11/27/16,"$8,000,000 ",,,
+2014,,,,Royal Melbourne GC,ISPS HANDA World Cup of Golf,11/21/13,11/24/13,"$7,000,000 ",,,
+2011,,,,Mission Hills GC (Blackstone),OMEGA Mission Hills World Cup,11/24/11,11/27/11,"$7,500,000 ",,,
+2009,,,,Mission Hills GC (Olazabal),OMEGA Mission Hills World Cup,11/26/09,11/29/09,"$5,500,000 ",,,
+2008,,,,Mission Hills GC (Olazabal),OMEGA Mission Hills World Cup,11/27/08,11/30/08,"$5,500,000 ",,,
+2007,,,,Mission Hills GC (Olazabal),OMEGA Mission Hills World Cup,11/22/07,11/25/07,"$5,000,000 ",,,
+2006,,,,The CC Course,World Golf Championships-Barbados World Cup,12/7/06,12/10/06,"$4,000,000 ",,,
+2005,,,,Victoria Clube de Golfe,World Golf Championships-Algarve World Cup in Portugal,11/17/05,11/20/05,"$4,000,000 ",,,
+2004,,,,Real Club de Golf de Sevilla,World Golf Championships-World Cup,11/18/04,11/21/04,"$4,000,000 ",,,
+2019,32,370,,Hamilton Golf & Country Club,RBC Canadian Open,6/6/19,6/9/19,"$7,600,000 ", CAN ,,
+2018,32,370,,Glen Abbey GC,RBC Canadian Open,7/26/18,7/29/18,"$6,200,000 ", CAN ,,
+2017,32,370,,Glen Abbey GC,RBC Canadian Open,7/27/17,7/30/17,"$6,000,000 ", CAN ,,
+2016,32,370,,Glen Abbey GC,RBC Canadian Open,7/21/16,7/24/16,"$5,900,000 ", CAN ,,
+2015,32,370,,Glen Abbey GC,RBC Canadian Open,7/23/15,7/26/15,"$5,800,000 ", CAN ,,
+2014,32,370,,Royal Montreal GC (Blue),RBC Canadian Open,7/24/14,7/27/14,"$5,700,000 ", CAN ,,
+2013,32,370,,Glen Abbey GC,RBC Canadian Open,7/25/13,7/28/13,"$5,600,000 ", CAN ,,
+2012,32,370,,Glen Abbey GC,RBC Canadian Open,7/26/12,7/29/12,"$5,200,000 ", CAN ,,
+2011,32,370,,Shaughnessy G&CC,RBC Canadian Open,7/21/11,7/24/11,"$5,200,000 ", CAN ,,
+2010,32,370,,St. George's G&CC,RBC Canadian Open,7/22/10,7/25/10,"$5,100,000 ", CAN , Toronto , Ontario 
+2009,32,370,,Glen Abbey GC,RBC Canadian Open,7/23/09,7/26/09,"$5,100,000 ", CAN ,,
+2008,32,370,,Glen Abbey GC,RBC Canadian Open,7/24/08,7/27/08,"$5,000,000 ", CAN ,,
+2007,32,370,,Angus Glen GC (North),Canadian Open presented by Franklin Templeton Investments,7/26/07,7/29/07,"$5,000,000 ", CAN ,,
+2006,32,370,,Hamilton G&CC,Canadian Open,9/7/06,9/10/06,"$5,000,000 ", CAN ,,
+2005,32,370,,Shaughnessy G&CC,Bell Canadian Open,9/8/05,9/11/05,"$5,000,000 ", CAN ,,
+2004,32,370,,Glen Abbey GC,Bell Canadian Open,9/9/04,9/12/04,"$4,500,000 ", CAN ,,
+2018,,,,TPC Potomac at Avenel Farm,Quicken Loans National,6/28/18,7/1/18,"$7,100,000 ", USA ,Potomac,MD
+2017,,,,TPC Potomac at Avenel Farm,Quicken Loans National,6/29/18,7/2/17,"$7,100,000 ", USA ,Potomac,MD
+2016,,,,Congressional CC (Blue),Quicken Loans National,6/23/16,6/26/16,"$6,900,000 ", USA ,Potomac,MD
+2015,,,,Robert Trent Jones GC,Quicken Loans National,7/29/15,8/2/15,"$6,700,000 ", USA ,,
+2014,,,,Congressional CC (Blue),Quicken Loans National,6/26/14,6/29/14,"$6,500,000 ", USA ,,
+2013,,,,Congressional CC (Blue),AT&T National,6/27/13,6/30/13,"$6,500,000 ", USA ,,
+2012,,,,Congressional CC (Blue),AT&T National,6/28/12,7/1/12,"$6,500,000 ", USA ,,
+2011,,,,Aronimink GC,AT&T National,6/30/11,7/3/11,"$6,200,000 ", USA ,,
+2010,,,,Aronimink GC,AT&T National,7/1/10,7/4/10,"$6,200,000 ", USA ,,
+2009,,,,Congressional CC (Blue),AT&T National,7/2/09,7/5/09,"$6,000,000 ", USA ,,
+2008,,,,Congressional CC (Blue),AT&T National,7/3/08,7/6/08,"$6,000,000 ", USA ,,
+2007,,,,Congressional CC (Blue),AT&T National,7/5/07,7/8/07,"$6,000,000 ", USA ,,
+2020,,,,The Old White TPC,A Military Tribute at the Greenbrier,9/12/09,9/15/09,"$7,500,000 ", USA ,White Sulphur Springs,WV
+2018,,,,The Old White TPC,A Military Tribute at the Greenbrier,7/5/18,7/8/18,"$7,300,000 ", USA ,White Sulphur Springs,WV
+2017,,,,The Old White TPC,The Greenbrier Classic,7/6/17,7/9/17,"$7,100,000 ", USA ,White Sulphur Springs,WV
+2015,,,,The Old White TPC,The Greenbrier Classic,7/2/15,7/5/15,"$6,700,000 ", USA ,White Sulphur Springs,WV
+2014,,,,The Old White TPC,The Greenbrier Classic,7/3/14,7/6/14,"$6,500,000 ", USA ,White Sulphur Springs,WV
+2013,,,,The Old White TPC,The Greenbrier Classic,7/4/13,7/7/13,"$6,300,000 ", USA ,White Sulphur Springs,WV
+2012,,,,The Old White TPC,The Greenbrier Classic,7/5/12,7/8/12,"$6,100,000 ", USA ,White Sulphur Springs,WV
+2011,,,,The Old White TPC,The Greenbrier Classic,7/28/11,7/31/11,"$6,000,000 ", USA ,White Sulphur Springs,WV
+2010,,,,The Old White TPC,The Greenbrier Classic,7/29/11,8/1/10,"$6,000,000 ", USA ,White Sulphur Springs,WV
+2018,,,,TPC Boston,Dell Technologies Championship,8/31/18,9/3/18,"$9,000,000 ", USA ,Norton,MA
+2017,,,,TPC Boston,Dell Technologies Championship,9/1/17,9/4/17,"$8,750,000 ", USA ,Norton,MA
+2016,,,,TPC Boston,Deutsche Bank Championship,9/2/16,9/5/16,"$8,500,000 ", USA ,Norton,MA
+2015,,,,TPC Boston,Deutsche Bank Championship,9/4/15,9/7/15,"$8,250,000 ", USA ,Norton,MA
+2014,,,,TPC Boston,Deutsche Bank Championship,8/29/14,9/1/14,"$8,000,000 ", USA ,Norton,MA
+2013,,,,TPC Boston,Deutsche Bank Championship,8/30/13,9/2/13,"$8,000,000 ", USA ,Norton,MA
+2012,,,,TPC Boston,Deutsche Bank Championship,8/31/12,9/3/12,"$8,000,000 ", USA ,Norton,MA
+2011,,,,TPC Boston,Deutsche Bank Championship,9/2/11,9/5/11,"$8,000,000 ", USA ,Norton,MA
+2010,,,,TPC Boston,Deutsche Bank Championship,9/3/10,9/6/10,"$7,500,000 ", USA ,Norton,MA
+2009,,,,TPC Boston,Deutsche Bank Championship,9/4/09,9/7/09,"$7,500,000 ", USA ,Norton,MA
+2008,,,,TPC Boston,Deutsche Bank Championship,8/29/08,9/1/08,"$7,500,000 ", USA ,Norton,MA
+2007,,,,TPC Boston,Deutsche Bank Championship,8/31/07,9/3/07,"$7,000,000 ", USA ,Norton,MA
+2006,,,,TPC Boston,Deutsche Bank Championship,9/1/06,9/4/06,"$5,500,000 ", USA ,Norton,MA
+2005,,,,TPC Boston,Deutsche Bank Championship,9/2/05,9/5/05,"$5,500,000 ", USA ,Norton,MA
+2004,,,,TPC Boston,Deutsche Bank Championship,9/3/04,9/6/04,"$5,000,000 ", USA ,Norton,MA
+2018,,,,Le Golf National,Ryder Cup,9/28/18,9/30/18,, FRA ,Saint-Quentin-en-Yvelines,
+2017,,,,Liberty National Golf Club,Presidents Cup,9/28/17,10/1/17,, USA ,Jersey City,NJ
+2016,,,,Hazeltine National GC,Ryder Cup,9/30/16,10/2/16,, USA ,Chaska,MN
+2015,,,,Port Royal GC,PGA Grand Slam of Golf,10/14/14,10/15/14,"$1,350,000 ", Bermuda ,Southampton,
+2014,,,,Port Royal GC,PGA Grand Slam of Golf,10/14/13,10/16/13,"$1,350,000 ", Bermuda ,Southampton,
+2015,,,,Jack Nicklaus GC Korea,Presidents Cup,10/8/11,10/11/15,, KOR ,Incheon City,Songdo IBD
+2014,,,,Gleneagles GC,Ryder Cup,9/25/14,9/28/14,, SCO ,Perthshire,
+2013,,,,Isleworth G&CC,Tavistock Cup,3/25/13,3/26/13,"$2,170,000 ", USA ,Windermere,FL
+2013,,,23,Muirfield Village Golf Club,Presidents Cup,10/3/13,10/6/13,, USA ,Dublin,OH
+2012,,,,Lake Nona G&CC,Tavistock Cup,3/19/12,3/20/12,"$2,170,000 ", USA ,Orlando,FL
+2012,,,,Medinah CC (No. 3),Ryder Cup,9/28/12,9/30/12,, USA ,Medinah,IL
+2012,,,,Port Royal GC,PGA Grand Slam of Golf,10/22/12,10/24/12,"$1,350,000 ", Bermuda ,Southampton,
+2012,,,,Magnolia GC,Children's Miracle Network Hospitals Classic,11/8/12,11/11/12,"$4,700,000 ", USA ,Lake Buena Vista,FL
+2011,,,,Isleworth G&CC,Tavistock Cup,3/14/11,3/15/11,"$2,150,000 ", USA ,Windermere,FL
+2011,,,,Royal Melbourne GC,Presidents Cup,11/17/11,11/20/11,, AUS ,Melbourne,Victoria
+2010,,,,Isleworth G&CC,Tavistock Cup,3/22/10,3/23/10,"$2,450,000 ", USA ,Windermere,FL
+2010,,,,Atunyote GC,Turning Stone Resort Championship,8/5/10,8/8/10,"$4,000,000 ", USA ,Verona,NY
+2010,,,,Celtic Manor Resort,Ryder Cup,10/1/10,10/3/10,, WAL ,City of Newport,
+2010,,,,Magnolia GC,Children's Miracle Network Hospitals Classic,11/11/10,11/14/10,"$4,700,000 ", USA ,Lake Buena Vista,FL
+2009,,,,Lake Nona G&CC,Tavistock Cup,3/16/09,3/17/09,"$2,500,000 ", USA ,Windermere,FL
+2009,,,,Brown Deer Park GC,U.S Bank Championship in Milwaukee,7/16/09,7/19/09,"$4,000,000 ", USA ,Milwaukee,WI
+2009,,,,Warwick Hills G&CC,Buick Open,7/30/09,8/2/09,"$5,100,000 ", USA ,Grand Blanc,MI
+2009,,,,Harding Park GC,Presidents Cup,10/8/09,10/11/09,, USA ,San Francisco,CA
+2008,,,,Isleworth G&CC,Tavistock Cup,3/24/08,3/25/08,"$2,880,000 ", USA ,Windermere,FL
+2008,,,,Valhalla GC,Ryder Cup,9/18/08,9/21/08,, USA ,Louisville,KY
+2008,,,,Atunyote GC,Turning Stone Resort Championship,10/2/08,10/5/08,"$6,000,000 ", USA ,Verona,NY
+2008,,,,Hammock Beach (Conservatory),Ginn sur Mer Classic,10/30/08,11/2/08,"$4,600,000 ", USA ,Palm Coast,FL
+2007,,,,The Royal Montreal GC,Presidents Cup,9/27/07,9/30/07,, CAN ,Ile Bizard,Quebec
+2007,,,,Tesoro Club,Ginn sur Mer Classic at Tesoro,10/25/07,10/28/07,"$4,500,000 ", USA ,Port St. Lucie,FL
+2006,,,,Tucson National GC,Chrysler Classic of Tucson,2/23/06,2/26/06,"$3,000,000 ", USA ,Tucson,AZ
+2006,,,,Doral CC (Blue,Ford Championship at Doral,3/2/06,3/5/06,"$5,500,000 ", USA ,Miami,FL
+2006,,,,TPC Sugarloaf,BellSouth Classic,3/30/06,4/2/06,"$5,300,000 ", USA ,Duluth,GA
+2006,,,,TPC Avenel,Booz Allen Classic,6/22/06,6/25/06,"$5,000,000 ", USA ,Potomac,MD
+2006,,,,Atunyote GC,B.C. Open presented Turning Stone Resort,7/20/06,7/23/06,"$3,000,000 ", USA ,Verona,NY
+2006,,,,Brown Deer Park GC,U.S Bank Championship in Milwaukee,7/16/06,7/19/06,"$4,000,000 ", USA ,Milwaukee,WI
+2006,,,,Castle Pines GC,The INTERNATIONAL,8/10/06,8/13/06,"$5,500,000 ", USA ,Castle Rock,CO
+2006,,,,Nemacolin (Mystic Rock),84 LUMBER CLASSIC,9/14/06,9/17/06,"$4,600,000 ", USA ,Farmington,PA
+2006,,,,Kildare G&CC,Ryder Cup,9/22/06,9/24/06,,,Kildare,
+2006,,,,Magnolia GC,FUNAI Classic at the WALT DISNEY WORLD Resort,10/19/06,10/22/06,"$4,600,000 ", USA ,Lake Buena Vista,FL
+2005,,,,TPC Sugarloaf,BellSouth Classic,3/31/05,4/3/05,"$5,000,000 ", USA ,Duluth,GA
+2005,,,,Congressional CC (Blue),Booz Allen Classic,6/9/05,6/12/05,"$5,000,000 ", USA ,Bethesda,MD
+2005,,,,En-Joie GC,B.C. Open,7/14/05,7/17/05,"$3,000,000 ", USA ,Endicott,NY
+2005,,,,Castle Pines GC,The INTERNATIONAL,8/4/05,8/7/05,"$5,000,000 ", USA ,Castle Rock,CO
+2005,,,,Nemacolin (Mystic Rock),84 LUMBER CLASSIC,9/15/05,9/18/05,"$4,400,000 ", USA ,Farmington,PA
+2005,,,,Robert Trent Jones GC,Presidents Cup,9/22/05,9/25/05,, USA ,Prince William County,VA
+2005,,,,TPC Canyons,Michelin Championship at Las Vegas,10/13/05,10/16/05,"$4,000,000 ", USA ,Las Vegas,NV
+2004,,,,TPC Sugarloaf,BellSouth Classic,4/1/04,4/4/04,"$4,500,000 ", USA ,Duluth,GA
+2004,,,,TPC Avenel,Booz Allen Classic,6/24/04,6/27/04,"$4,800,000 ", USA ,Potomac,MD
+2004,,,,En-Joie GC,B.C. Open,7/15/04,7/18/04,"$3,000,000 ", USA ,Endicott,NY
+2004,,,,Brown Deer Park GC,U.S Bank Championship in Milwaukee,7/15/04,7/18/04,"$3,000,000 ", USA ,Milwaukee,WI
