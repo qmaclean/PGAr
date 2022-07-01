@@ -5,7 +5,7 @@ Stat ID Reference: https://github.com/qmaclean/golfR/blob/main/man/Stat_ID.md
 
 
 To-do: \
--Create a PBP or Hole-by-Hole view
+-Create a PBP or Hole-by-Hole view \
 -Find LPGA stats \
 -Scrape ESPN data 
 
