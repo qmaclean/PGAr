@@ -5,6 +5,7 @@
 - Pull stats leaderboards by tournament
 - Pull player lists for PGA affiliated tours (PGA, Korn Ferry, PGA Canada, etc)
 - Scrape ESPN leaderboard
+- List of Tournament Ids
 
 Stat ID Reference: https://github.com/qmaclean/golfR/blob/main/man/Stat_ID.md
 
