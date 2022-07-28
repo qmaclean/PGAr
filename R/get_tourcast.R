@@ -2,7 +2,7 @@
 
 
 year<-2022
-tournament_id<-'464'
+tournament_id<-'011'
 player_id<-"47483"
 round<-"4"
 
@@ -37,16 +37,16 @@ get_pga_player_round<-function(year,
   headers<- c(
     `Host` = 'tourcastdata.pgatour.com',
     `User-Agent` = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36',
-    `Accept` = '*/*'#,
-    #`Origin` = 'https://www.pgatour.com',
-    #`Referer` = 'https://www.pgatour.com/'
+    `Accept` = '*/*',
+    `Origin` = 'https://www.pgatour.com',
+    `Referer` = 'https://www.pgatour.com/'
   )
-  
-  
+
   #### base url
   tracking_base_url<-"https://tourcastdata.pgatour.com/"
   
   
+
   #### grab TrackingID for params
   tracking_url<-paste0(
     tracking_base_url,
@@ -55,17 +55,15 @@ get_pga_player_round<-function(year,
     "/tourcast-status.json"
   )
   
- 
-  
-  res <- httr::RETRY("GET", tracking_url,
-                     httr::add_headers(.headers = headers))
+  res<- httr::GET(tracking_url,
+                  httr::add_headers(.headers = headers))
   
   resp<-res %>%
     httr::content(as = "text",encoding = "UTF-8")
   
   userTrackingId<-jsonlite::fromJSON(resp)[["regGateType"]]
   
-  userTrackingId
+  #userTrackingId
   
   #### json base link
   base_url<-"https://lbdata.pgatour.com/"
@@ -78,7 +76,7 @@ get_pga_player_round<-function(year,
     ".json?userTrackingId=",userTrackingId
   )
   
-  tourcast_url<-"https://lbdata.pgatour.com/2022/r/033/drawer/r2-m47483.json?userTrackingId=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTMxMDIxNTQsIm5iZiI6MTY1MzEwMjE1NCwiZXhwIjoxNjUzMTAzOTU0fQ.rxAdoRVdmo8BFNliJmE2ach82Q2k2f0kjIrVLNLDLaI"
+  #tourcast_url<-"https://lbdata.pgatour.com/2022/r/033/drawer/r2-m47483.json?userTrackingId=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTMxMDIxNTQsIm5iZiI6MTY1MzEwMjE1NCwiZXhwIjoxNjUzMTAzOTU0fQ.rxAdoRVdmo8BFNliJmE2ach82Q2k2f0kjIrVLNLDLaI"
   
   tour_headers<- c(
     `Host` = 'lbdata.pgatour.com',
@@ -86,10 +84,9 @@ get_pga_player_round<-function(year,
     `Accept` = 'application/json, text/xml, application/xml, */*'
   )
   
-  
   new_res<-httr::RETRY("GET",tourcast_url,
-                       httr::add_headers(.headers = tour_headers)
-                  )
+            httr::add_headers(.headers = tour_headers))
+
   
   
   new_resp<-new_res %>%
