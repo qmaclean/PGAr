@@ -28,5 +28,5 @@ Still To-do:
 
 ## Viz Samples
 
-<img src="https://github.com/qmaclean/golfR/blob/main/Viz/PGA_bombers.png" width="50%" />
+<img src="https://github.com/qmaclean/golfR/blob/main/Viz/PGA_bombers.png" width="100%" />
 
