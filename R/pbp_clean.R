@@ -4,6 +4,8 @@ library(fs)
 library(janitor)
 library(stringr)
 library(matrixStats)
+library(arrow)
+library(sparklyr)
 
 
 
@@ -387,10 +389,11 @@ df<-df %>%
                                       to_front_bunker_8_distance,na.rm = T))
 
 
-### 
 
 
-#write.csv(df,"pbp_2021_2022.csv",row.names=FALSE)
+#### write as parquet file
+write_parquet(df,'pbp_2021_2022.parquet')
+
 
            
     
@@ -409,6 +412,7 @@ df<-df %>%
     ### poi distance from tee/green/center off fairway
     ### remove all local
     ### change from bunker 1,2,3 to nearest to golfer, nearest to green, etc. 
+    ### convert ace, albatross to Double Eagle+
     
 
 
