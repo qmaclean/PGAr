@@ -2,18 +2,12 @@ library(tidyverse)
 library(caret)
 library(ggimage)
 library(ggrepel)
+library(rsample)
 
 ### 
 #expected_driving_distance model
 base_url<-"https://pga-tour-res.cloudinary.com/image/upload/c_fill/headshots_"
 
-full_url<-paste0(
-  base_url,
-  "/",tournament_id,
-  "/",year,
-  "/",course_id,
-  "/course.json"
-)
 
 ### Pre-processing
 dm<-df %>%
@@ -50,39 +44,40 @@ dm %>%
   dplyr::group_by(shotNumber,parValue_hole) %>%
   dplyr::summarize(n = n())
 
+dm %>%
+  dplyr::filter(radarData.clubSpeed > 0,
+                full_name == "Bryson DeChambeau") %>%
+  dplyr::summarize(clubSpeed = median(radarData.clubSpeed,na.rm =T),
+                   drivingDistance = median(distance_yds,na.rm = T))
+
+
 
 #### eda
-#dm %>%
-#  dplyr::filter(score_result != "NA",
-#                parValue_hole %in% c(4,5)) %>%
-#  ggplot() +
-#  aes(x=distance_yds,y=radarData.apexRange,color = score_result) +
-#  geom_jitter(alpha=0.7) 
+#### vertical launch angle changes on par 3s
+### horizonta launch angle is a wider distribution on par 4
+### club speed is almost directly related to distance
+### flight time is similarly distributed
 
 
-#### PGA Bombers viz
 
 dm %>%
-  dplyr::filter(score_result != "NA",
-                parValue_hole %in% c(4,5),
-                radarData.clubSpeed > 0
-                ) %>%
-  group_by(playerId,full_name,headshot_url) %>%
-  summarize(clubSpeed = median(radarData.clubSpeed,na.rm =T),
-            drivingDistance = median(distance_yds,na.rm = T),
-            n = n()) %>%
-  dplyr::filter(n > 30) %>%
-  arrange(desc(drivingDistance)) %>%
-  head(50L) %>%
+  dplyr::filter(score_result != "NA") %>%
+  #group_by(playerId,full_name,headshot_url) %>%
+  #summarize(clubSpeed = median(radarData.clubSpeed,na.rm =T),
+  #          drivingDistance = median(distance_yds,na.rm = T),
+  #          n = n()) %>%
+  #dplyr::filter(radarData.horizontalLaunchAngle > -100) %>%
+  #arrange(desc(drivingDistance)) %>%
+  #head(50L) %>%
   ggplot() +
-  aes(x=drivingDistance,y=clubSpeed,size=n) +
-  geom_smooth(method = "lm",se = FALSE,color = 'grey',linetype='dashed') +
-  geom_text_repel(aes(label = full_name),
-                  force = 1, point.padding = 0.1,
-                  segment.size = 0.1,
-                  color="black") + 
+  aes(x=radarData.horizontalLaunchAngle,y=radarData.verticalLaunchAngle) +
+  #geom_smooth(method = "lm",se = FALSE,color = 'grey',linetype='dashed') +
+  #geom_text_repel(aes(label = full_name),
+  #                force = 1, point.padding = 0.1,
+  #                segment.size = 0.1,
+  #                color="black") + 
   #geom_image(aes(image = headshot_url), size = 0.1, by = "width")  + 
-  geom_point(alpha=0.7,color="dark green") + 
+  geom_point(alpha=0.7,color="blue") + 
   theme_minimal() +
   theme(
     axis.title = element_text(size = 10),
@@ -92,32 +87,69 @@ dm %>%
     plot.caption = element_text(size = 8),
     legend.position = "none",
     plot.background = element_rect(fill = '#fffaf0', color = NA),
-  ) + 
-  labs(
-    title = "PGA Tour Bombers",
-    subtitle = "@QuinnsWisdom | 2021-2022 Top 50 Median Driving Distance*",
-    caption = "*Only PGA Tournaments w/ ShotLink Radar Data Available | 30+ Drives | Par 4-5s only | Bubble Size = # of drives",
-    x = "Median Driving Distance (Yds)",
-    y = "Median Club Speed (Mph)"
-  ) 
+  ) +
+  facet_wrap(~parValue_hole)
 
-ggsave("PGA_bombbers.png")
+
+
+dm %>%
+  ggplot() +
+  aes(distance_yds) + 
+  geom_density() +
+  facet_wrap(~parValue_hole)
+
+num<-dm %>%
+  dplyr::select_if(is.numeric)
+data_cor <- cor(num[ , colnames(num) != "distance_yds"],  # Calculate correlations
+                num$distance_yds)
+data_cor 
+###### create model #######
+
+############ Par 4 or 5 model 
+
+### to distance has a lot NA values
+
+model_data_drives<-dm %>%
+  dplyr::select(tournamentNumber,seasonYear,roundNumber,courseNumber,playerId,shotNumber,radarData.apexRange,
+                radarData.apexSide,radarData.apexHeight,radarData.clubSpeed,radarData.ballSpeed,radarData.smashFactor,
+                radarData.launchSpin,radarData.verticalLaunchAngle,radarData.horizontalLaunchAngle,radarData.actualFlightTime,
+                parValue_hole,rank_hole,to_pin_distance,to_center_off_fairway_distance,distance_yds) %>%
+  dplyr::filter(parValue_hole != 3) 
+
+set.seed(1234)
+split <- initial_split(model_data_drives)
+
+training_set <- training(split) %>% select(-tournamentNumber, -seasonYear, -roundNumber,-courseNumber,-playerId,-shotNumber)
+training_set_ids <- training(split) %>% select(tournamentNumber, seasonYear, roundNumber,courseNumber,playerId,shotNumber)
+testing_set <- testing(split) %>% select(-tournamentNumber, -seasonYear, -roundNumber,-courseNumber,-playerId,-shotNumber)
+testing_set_ids <- testing(split) %>% select(tournamentNumber, seasonYear, roundNumber,courseNumber,playerId,shotNumber)
+
+
+fitControl <- trainControl(## 5-fold CV
+  method = "repeatedcv",
+  number = 5,
+  repeats = 5,
+  summaryFunction = defaultSummary,
+  allowParallel = TRUE)
+
+lm_model <- train(distance_yds ~ .,
+               data = training_set,
+               method = "lm")
+summary(lm_model)
+
+## initial: 0.6843 -> baseline
+
+## reduced performance
+
+rf_model<-train(distance_yds ~ .,
+          data = training_set,
+          method = "ranger",
+          trControl = fitControl)
+
   
 
-a<-dm %>%
-  dplyr::filter(playerId == "55670")
-
-## image doesn't work for:
-#1249
-#55670
 
 
-  
-library(RCurl)
-df_exist <- data.frame()
-for (i in 1:nrow(dm)) {
-  url <- as.character(dm$headshot_url[i])
-  exist <- url.exists(url)
-  df_exist <- rbind(df_exist, data.frame( url = url,
-                                          exist = exist))
-}
+
+
+
