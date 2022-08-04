@@ -4,6 +4,7 @@ library(ggimage)
 library(ggrepel)
 library(rsample)
 
+
 ### 
 #expected_driving_distance model
 base_url<-"https://pga-tour-res.cloudinary.com/image/upload/c_fill/headshots_"
@@ -141,15 +142,61 @@ summary(lm_model)
 
 ## reduced performance
 
-rf_model<-train(distance_yds ~ .,
+lm_step_model<-train(distance_yds ~ .,
           data = training_set,
-          method = "ranger",
+          method = "lmStepAIC",
           trControl = fitControl)
 
-  
+summary(lm_step_model)
+
+### all necessary features for linear model 
+
+
+xgbLinear<-train(distance_yds ~ .,
+                data = training_set,
+                method = "xgbLinear",
+                trControl = fitControl,
+                verbose = TRUE)
+
+#saveRDS(xgbLinear,"xgbLinear_expected_driving")
+#### no real difference in variables; problem likely not linear
 
 
 
+## 
+
+testing_set$test_pred<-predict(xgbLinear,testing_set)
+postResample(pred=testing_set$test_pred,obs=testing_set$distance_yds)
+### 0.7845; xgb increased by performance by 0.1!
+
+dm$pred_distance_yds<-predict(xgbLinear,dm)
 
 
+dm$exp_diff<-dm$distance_yds - dm$pred_distance_yds
+
+
+
+dm %>%
+  filter(parValue_hole != 3) %>%
+  group_by(full_name) %>%
+  summarize(exp_diff = mean(exp_diff,na.rm = T),
+            yds = mean(distance_yds,na.rm = T)) %>%
+  arrange(desc(exp_diff))
+
+dm %>%
+  filter(parValue_hole != 3) %>%
+  group_by(full_name) %>%
+  summarize(exp_diff = mean(exp_diff,na.rm = T),
+            yds = mean(distance_yds,na.rm = T)) %>%
+  arrange(exp_diff) 
+
+### increased model to 0.7845
+## MAE is 9? 
+
+dm %>%
+  filter(parValue_hole != 3) %>%
+ggplot() +
+  aes(x=distance_yds,y=pred_distance_yds) +
+  geom_point(alpha = 0.4) +
+  theme_minimal()
 
