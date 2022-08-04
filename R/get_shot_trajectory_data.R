@@ -130,7 +130,7 @@ get_pga_tourney_shot_trajectory<-function(year,
                  measuredTimeInterval = ifelse(start_measuredTimeInterval == 0 & row == 1,start_measuredTimeInterval,end_measuredTimeInterval * (row/max_row))) %>%
           dplyr::select(row,max_row,tournamentNumber,seasonYear,courseNumber,roundNumber,holeNumber,
                         playerId,shotNumber,kind,
-                        timeInterval,validTimeInterval,measuredTimeInterval,xFit,yFit,zFit) 
+                        timeInterval,validTimeInterval,measuredTimeInterval,xFit,yFit,zFit,spinRateFit) 
         
         
         
