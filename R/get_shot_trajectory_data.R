@@ -40,13 +40,13 @@ get_pga_tourney_shot_trajectory<-function(year,
   
   # round
   i<-1
-  h<-1
+  h<-3
   g<-1
   
   df<-data.frame()
   pbp<-data.frame()
   
-  g_loop<-1:28  ### typically 156 players invited to a tourney or 52 threesomes
+  g_loop<-1:26  ### typically 156 players invited to a tourney or 52 threesomes
   h_loop<-1:18
   
   #magic_for(progress = TRUE)
@@ -86,7 +86,20 @@ get_pga_tourney_shot_trajectory<-function(year,
         
         pbp_js<-jsonlite::fromJSON(resp,flatten = TRUE)
         
+        if(!"radarData.ballTrajectory" %in% colnames(pbp<-pbp_js %>%
+                map_if(is.data.frame,list) %>%
+                as_tibble() %>%
+                dplyr::select(-groupId) %>%
+                unnest(groupDetails) %>%
+                dplyr::select(-groupId) %>%
+                unnest(shots) %>%
+                dplyr::select(-previousRoundShots,-nextRoundNumber,-nextRoundGroupID,-nextHoleNumber,
+                              -prevRoundNumber,-prevRoundGroupID,-prevHoleNumber) %>%
+                as_tibble())){
+          next
+        }
         
+      
         pbp<-pbp_js %>%
           map_if(is.data.frame,list) %>%
           as_tibble() %>%
@@ -99,8 +112,11 @@ get_pga_tourney_shot_trajectory<-function(year,
           as_tibble() %>%
           unnest(radarData.ballTrajectory) %>%
           pivot_longer(c(xFit,yFit,zFit,spinRateFit)) %>%
+          distinct() %>%
           mutate(value = lapply(value, `length<-`, max(lengths(value)))) %>%
+          distinct() %>%
           pivot_wider(names_from = name, values_from = value) %>%
+          distinct() %>%
           unnest(cols = c(xFit,yFit,zFit,spinRateFit)) %>%
           filter(rowSums(is.na(.[-1])) != 2) %>%
           separate(timeInterval,c("start_timeInterval","end_timeInterval"),sep=",") %>%
@@ -128,7 +144,7 @@ get_pga_tourney_shot_trajectory<-function(year,
           mutate(timeInterval = ifelse(start_timeInterval == 0 & row == 1,start_timeInterval,end_timeInterval * (row/max_row)),
                  validTimeInterval = ifelse(start_validTimeInterval == 0 & row == 1,start_validTimeInterval,end_validTimeInterval * (row/max_row)),
                  measuredTimeInterval = ifelse(start_measuredTimeInterval == 0 & row == 1,start_measuredTimeInterval,end_measuredTimeInterval * (row/max_row))) %>%
-          dplyr::select(row,max_row,tournamentNumber,seasonYear,courseNumber,roundNumber,holeNumber,
+          dplyr::select(row,max_row,tournamentNumber,seasonYear,courseNumber,roundNumber,holeNumber,groupId,
                         playerId,shotNumber,kind,
                         timeInterval,validTimeInterval,measuredTimeInterval,xFit,yFit,zFit,spinRateFit) 
         
@@ -165,6 +181,7 @@ get_pga_tourney_shot_trajectory<-function(year,
   
 }
 
+shots<-get_pga_tourney_shot_trajectory(2021,"002","704")
 
-
+write.csv(shots,"shot_trajectory_2021_002_704.csv")
 
