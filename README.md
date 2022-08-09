@@ -1,7 +1,7 @@
 # golfR
 
 ## Features
-- extracting PGA tour shot by shot data
+- extracting PGA tour shot by shot data, radar Data, and shot trajectory data
 - Pull stats leaderboards by tournament
 - Pull player lists for PGA affiliated tours (PGA, Korn Ferry, PGA Canada, etc)
 - Scrape ESPN leaderboard
