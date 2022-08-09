@@ -11,7 +11,8 @@ Stat ID Reference: https://github.com/qmaclean/golfR/blob/main/man/Stat_ID.md
 
 
 ## To-do
-- Use PBP function to scrape previous tourney data for instant load 
+- Use PBP function to scrape previous tourney data for instant load
+- Add load functions
 - Find course view images for plot 
 - Find LPGA stats 
 - Scrape ESPN data for easy load 
