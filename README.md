@@ -11,14 +11,14 @@ Stat ID Reference: https://github.com/qmaclean/golfR/blob/main/man/Stat_ID.md
 
 
 ## To-do
-- Use PBP function to scrape previous tourney data for instant load
-- Add load functions
-- Find course view images for plot 
+- Create a scorecard function to scrape data for non-shot link events and get data prior to 2020
+- Add load functions for previous data
 - Find LPGA stats 
-- Scrape ESPN data for easy load 
-- LIV golf stats? 
+- Modify ESPN scraping script to a function
+- LIV golf stat
 - Create a golf plotter function 
 - Create a Master's data scraper (separate website)
+- Find course view images for plot 
 
 
 Still To-do:
