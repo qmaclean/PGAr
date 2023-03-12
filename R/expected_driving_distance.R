@@ -3,11 +3,14 @@ library(caret)
 library(ggimage)
 library(ggrepel)
 library(rsample)
+library(car)
 
-
+getwd()
 ### 
 #expected_driving_distance model
 base_url<-"https://pga-tour-res.cloudinary.com/image/upload/c_fill/headshots_"
+
+df<-read_parquet("data/cleaned_pbp/pbp_2021_2022.parquet")
 
 
 ### Pre-processing
@@ -108,7 +111,7 @@ data_cor
 
 ############ Par 4 or 5 model 
 
-### to distance has a lot NA values
+##### select most of radar variables
 
 model_data_drives<-dm %>%
   dplyr::select(tournamentNumber,seasonYear,roundNumber,courseNumber,playerId,shotNumber,radarData.apexRange,
@@ -164,15 +167,24 @@ xgbLinear<-train(distance_yds ~ .,
 
 
 ## 
+testing_set$test_pred_lm<-predict(lm_model,testing_set)
+postResample(pred=testing_set$test_pred_lm,obs=testing_set$distance_yds)
+AIC(lm_model$finalModel)
+
 
 testing_set$test_pred<-predict(xgbLinear,testing_set)
 postResample(pred=testing_set$test_pred,obs=testing_set$distance_yds)
 ### 0.7845; xgb increased by performance by 0.1!
+plot(xgbLinear)
+varImp(xgbLinear)
 
 dm$pred_distance_yds<-predict(xgbLinear,dm)
 
 
 dm$exp_diff<-dm$distance_yds - dm$pred_distance_yds
+
+
+
 
 
 
@@ -199,4 +211,30 @@ ggplot() +
   aes(x=distance_yds,y=pred_distance_yds) +
   geom_point(alpha = 0.4) +
   theme_minimal()
+
+
+qplot(x=to_pin_distance,y=radarData.apexHeight,data = model_data_drives) +
+  geom_path(linetype = 5, size=0.5,arrow=arrow(angle=model_data_drives$radarData.verticalLaunchAngle,ends="both",
+                                               type="closed")) +
+  geom_point()
+
+
+model_data_drives %>%
+  ggplot() +
+  aes(x=distance_yds,y=radarData.apexHeight) +
+  geom_path(aes(group = shotNumber),arrow = arrow()) +
+  scale_x_reverse() +
+  coord_fixed()
+
+
+### interval value
+shots %>%
+  ggplot() +
+  aes(x=timeInterval,y=yFit,color=spinRateFit) +
+  geom_path(aes(group = playerId),arrow = arrow(),alpha = 0.05) +
+  theme_minimal()
+
+
+
+
 
